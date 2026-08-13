@@ -1,0 +1,463 @@
+{
+  "items": [
+    {
+      "description": "A function which takes a function as an argument and/or returns a function.",
+      "items": [],
+      "title": "Higher-Order Functions (HOF)"
+    },
+    {
+      "description": "Partially applying a function means creating a new function by pre-filling some of the arguments to the original function.\nYou can also use to partially apply a function in JS:\nPartial application helps create simpler functions from more complex ones by baking in data when you have it. Curried functions are automatically partially applied.",
+      "items": [],
+      "title": "Partial Application"
+    },
+    {
+      "description": "The process of converting a function that takes multiple arguments into a function that takes them one at a time.\nEach time the function is called it only accepts one argument and returns a function that takes one argument until all arguments are passed.",
+      "items": [],
+      "title": "Currying"
+    },
+    {
+      "description": "The act of putting two functions together to form a third function where the output of one function is the input of the other. This is one of the most important ideas of functional programming.",
+      "items": [],
+      "title": "Function Composition"
+    },
+    {
+      "description": "At any given point in a program, the part of the code that's yet to be executed is known as a continuation.\nContinuations are often seen in asynchronous programming when the program needs to wait to receive data before it can continue. The response is often passed off to the rest of the program, which is the continuation, once it's been received.",
+      "items": [],
+      "title": "Continuation"
+    },
+    {
+      "description": "A function is pure if the return value is only determined by its input values, and does not produce side effects. The function must always return the same result when given the same input.\nAs opposed to each of the following:\nThe above example's output is based on data stored outside of the function...\n... and this one modifies state outside of the function.",
+      "items": [],
+      "title": "Pure Function"
+    },
+    {
+      "description": "A function or expression is said to have a side effect if apart from returning a value, it interacts with (reads from or writes to) external mutable state.",
+      "items": [],
+      "title": "Side effects"
+    },
+    {
+      "description": "A function is idempotent if reapplying it to its result does not produce a different result.",
+      "items": [],
+      "title": "Idempotence"
+    },
+    {
+      "description": "Writing functions where the definition does not explicitly identify the arguments used. This style usually requires currying or other Higher-Order functions. A.K.A Tacit programming.\nPoint-free function definitions look just like normal assignments without or . It's worth mentioning that point-free functions are not necessarily better than their counterparts, as they can be more difficult to understand when complex.",
+      "items": [],
+      "title": "Point-Free Style"
+    },
+    {
+      "description": "A predicate is a function that returns true or false for a given value. A common use of a predicate is as the callback for array filter.",
+      "items": [],
+      "title": "Predicate"
+    },
+    {
+      "description": "A contract specifies the obligations and guarantees of the behavior from a function or expression at runtime. This acts as a set of rules that are expected from the input and output of a function or expression, and errors are generally reported whenever a contract is violated.",
+      "items": [],
+      "title": "Contracts"
+    },
+    {
+      "description": "Anything that can be assigned to a variable.",
+      "items": [],
+      "title": "Value"
+    },
+    {
+      "description": "A variable that cannot be reassigned once defined.\nConstants are referentially transparent. That is, they can be replaced with the values that they represent without affecting the result.\nWith the above two constants the following expression will always return .",
+      "items": [],
+      "title": "Constant"
+    },
+    {
+      "description": "A curried function that ignores its second argument:",
+      "items": [],
+      "title": "Constant Function"
+    },
+    {
+      "description": "Object whose doesn't transform the contents. See Functor.",
+      "items": [],
+      "title": "Constant Functor"
+    },
+    {
+      "description": "Object whose doesn't transform the contents. See Monad.",
+      "items": [],
+      "title": "Constant Monad"
+    },
+    {
+      "description": "An object that implements a function that takes a function which is run on the contents of that object. A functor must adhere to two rules:\nPreserves identity\nis equivalent to just .\nComposable\nis equivalent to\n(, are arbitrary composable functions)\nThe reference implementation of Option is a functor as it satisfies the rules:\nand",
+      "items": [],
+      "title": "Functor"
+    },
+    {
+      "description": "An object with an function that puts any single value into it.\nES2015 adds making arrays a pointed functor.",
+      "items": [],
+      "title": "Pointed Functor"
+    },
+    {
+      "description": "Lifting is when you take a value and put it into an object like a functor. If you lift a function into an Applicative Functor then you can make it work on values that are also in that functor.\nSome implementations have a function called , or to make it easier to run functions on functors.\nLifting a one-argument function and applying it does the same thing as .\nLifting simple values can be simply creating the object.",
+      "items": [],
+      "title": "Lift"
+    },
+    {
+      "description": "An expression that can be replaced with its value without changing the behavior of the program is said to be referentially transparent.\nGiven the function greet:\nAny invocation of can be replaced with hence greet is referentially transparent. This would be broken if greet depended on external state like configuration or a database call. See also Pure Function and Equational Reasoning.",
+      "items": [],
+      "title": "Referential Transparency"
+    },
+    {
+      "description": "When an application is composed of expressions and devoid of side effects, truths about the system can be derived from the parts. You can also be confident about details of your system without having to go through every function.\nIn the example above, if you know that and are pure then you know that the composition is pure. This can be taken further when more is known about the functions (associative, commutative, idempotent, etc...).",
+      "items": [],
+      "title": "Equational Reasoning"
+    },
+    {
+      "description": "An anonymous function that can be treated like a value.\nLambdas are often passed as arguments to Higher-Order functions:\nYou can assign a lambda to a variable:",
+      "items": [],
+      "title": "Lambda"
+    },
+    {
+      "description": "A branch of mathematics that uses functions to create a universal model of computation.",
+      "items": [],
+      "title": "Lambda Calculus"
+    },
+    {
+      "description": "A higher-order function, usually curried, which returns a new function changed in some way. Functional combinators are often used in Point-Free Style to write especially terse programs.\nSee also List of Functional Combinators in JavaScript which includes links to more references.",
+      "items": [],
+      "title": "Functional Combinator"
+    },
+    {
+      "description": "Lazy evaluation is a call-by-need evaluation mechanism that delays the evaluation of an expression until its value is needed. In functional languages, this allows for structures like infinite lists, which would not normally be available in an imperative language where the sequencing of commands is significant.",
+      "items": [],
+      "title": "Lazy evaluation"
+    },
+    {
+      "description": "An object with a function that \"combines\" that object with another of the same type (semigroup) which has an \"identity\" value.\nOne simple monoid is the addition of numbers:\nIn this case number is the object and is the function.\nWhen any value is combined with the \"identity\" value the result must be the original value. The identity must also be commutative.\nThe identity value for addition is .\nIt's also required that the grouping of operations will not affect the result (associativity):\nArray concatenation also forms a monoid:\nThe identity value is empty array :\nAs a counterexample, subtraction does not form a monoid because there is no commutative identity value:",
+      "items": [],
+      "title": "Monoid"
+    },
+    {
+      "description": "A monad is an object with and functions. is like except it un-nests the resulting nested object.\nis also known as in other functional languages. is also known as and in other languages.",
+      "items": [],
+      "title": "Monad"
+    },
+    {
+      "description": "An object that has and functions.\ntakes a value out of a functor:\nruns a function on the comonad. The function should return the same type as the comonad:",
+      "items": [],
+      "title": "Comonad"
+    },
+    {
+      "description": "An applicative functor is an object with an function. applies a function in the object to a value in another object of the same type.\nThis is useful if you have two objects and you want to apply a binary function to their contents.\nThis gives you an array of functions that you can call on to get the result:",
+      "items": [],
+      "title": "Applicative Functor"
+    },
+    {
+      "description": "A relationship between objects within a category. In the context of functional programming all functions are morphisms.",
+      "items": [],
+      "title": "Morphism"
+    },
+    {
+      "description": "A function where the input type is the same as the output. Since the types are identical, endomorphisms are also homomorphisms.",
+      "items": [],
+      "title": "Endomorphism"
+    },
+    {
+      "description": "A morphism made of a pair of transformations between 2 types of objects that is structural in nature and no data is lost.\nFor example, 2D coordinates could be stored as an array or object .\nIsomorphisms are an interesting example of morphism because more than single function is necessary for it to be satisfied. Isomorphisms are also homomorphisms since both input and output types share the property of being reversible.",
+      "items": [],
+      "title": "Isomorphism"
+    },
+    {
+      "description": "A function which deconstructs a structure into a single value. is an example of a catamorphism for array structures.",
+      "items": [],
+      "title": "Catamorphism"
+    },
+    {
+      "description": "A function that builds up a structure by repeatedly applying a function to its argument. is an example which generates an array from a function and a seed value. This is the opposite of a catamorphism. You can think of this as an anamorphism builds up a structure and catamorphism breaks it down.",
+      "items": [],
+      "title": "Anamorphism"
+    },
+    {
+      "description": "The function which composes an anamorphism followed by a catamorphism.",
+      "items": [],
+      "title": "Hylomorphism"
+    },
+    {
+      "description": "A function just like . However, there's a difference:\nIn paramorphism, your reducer's arguments are the current value, the reduction of all previous values, and the list of values that formed that reduction.\nThe third parameter in the reducer (in the above example, ) is kind of like having a history of what got you to your current acc value.",
+      "items": [],
+      "title": "Paramorphism"
+    },
+    {
+      "description": "The opposite of paramorphism, just as anamorphism is the opposite of catamorphism. With paramorphism, you retain access to the accumulator and what has been accumulated, apomorphism lets you with the potential to return early.",
+      "items": [],
+      "title": "Apomorphism"
+    },
+    {
+      "description": "An object that has an function which can be used to compare other objects of the same type.\nMake array a setoid:",
+      "items": [],
+      "title": "Setoid"
+    },
+    {
+      "description": "An object that has a function that combines it with another object of the same type.",
+      "items": [],
+      "title": "Semigroup"
+    },
+    {
+      "description": "An object that has a function that applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.",
+      "items": [],
+      "title": "Foldable"
+    },
+    {
+      "description": "A composite type made from putting other types together. Two common classes of algebraic types are sum and product.",
+      "items": [],
+      "title": "Algebraic data type"
+    },
+    {
+      "description": "A Sum type is the combination of two types together into another one. It is called sum because the number of possible values in the result type is the sum of the input types.\nJavaScript doesn't have types like this, but we can use s to pretend:\nSum types are sometimes called union types, discriminated unions, or tagged unions.\nThere's a couple libraries in JS which help with defining and using union types.\nFlow includes union types and TypeScript has Enums to serve the same role.",
+      "items": [],
+      "title": "Sum type"
+    },
+    {
+      "description": "Option is a sum type with two cases often called and .\nOption is useful for composing functions that might not return a value.\nUse to sequence functions that return s:\nis also known as . is sometimes called . is sometimes called .",
+      "items": [],
+      "title": "Option"
+    },
+    {
+      "description": "A function is an expression - often called arrow or lambda expression - with exactly one (immutable) parameter of type and exactly one return value of type . That value depends entirely on the argument, making functions context-independent, or referentially transparent. What is implied here is that a function must not produce any hidden side effects - a function is always pure, by definition. These properties make functions pleasant to work with: they are entirely deterministic and therefore predictable. Functions enable working with code as data, abstracting over behaviour:",
+      "items": [],
+      "title": "Function"
+    },
+    {
+      "description": "A partial function is a function which is not defined for all arguments - it might return an unexpected result or may never terminate. Partial functions add cognitive overhead, they are harder to reason about and can lead to runtime errors. Some examples:",
+      "items": [],
+      "title": "Partial function"
+    },
+    {
+      "description": "Partial functions are dangerous as they need to be treated with great caution. You might get an unexpected (wrong) result or run into runtime errors. Sometimes a partial function might not return at all. Being aware of and treating all these edge cases accordingly can become very tedious. Fortunately a partial function can be converted to a regular (or total) one. We can provide default values or use guards to deal with inputs for which the (previously) partial function is undefined. Utilizing the type, we can yield either or where we would otherwise have behaved unexpectedly:\nMaking your partial functions total ones, these kinds of runtime errors can be prevented. Always returning a value will also make for code that is both easier to maintain and to reason about.",
+      "items": [],
+      "title": "Dealing with partial functions"
+    },
+    {
+      "description": "A function which returns a valid result for all inputs defined in its type. This is as opposed to Partial Functions which may throw an error, return an unexpected result, or fail to terminate.",
+      "items": [],
+      "title": "Total Function"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "lodash",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-07-03T19:48:01Z",
+            "owner": "lodash",
+            "repo": "lodash",
+            "stars": 61319
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Immutable",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-06T21:15:35Z",
+            "owner": "immutable-js",
+            "repo": "immutable-js",
+            "stars": 33045
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Immer",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-11T23:24:46Z",
+            "owner": "immerjs",
+            "repo": "immer",
+            "stars": 28979
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Underscore.js",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-12T13:38:20Z",
+            "owner": "jashkenas",
+            "repo": "underscore",
+            "stars": 27340
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ramda",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-07-26T15:18:52Z",
+            "owner": "ramda",
+            "repo": "ramda",
+            "stars": 24059
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fp-ts",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-04-20T19:55:05Z",
+            "owner": "gcanti",
+            "repo": "fp-ts",
+            "stars": 11534
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Lazy.js",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2020-07-15T20:12:33Z",
+            "owner": "dtao",
+            "repo": "lazy.js",
+            "stars": 5967
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mori",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Clojure",
+            "last_commit": "2026-03-06T23:41:00Z",
+            "owner": "swannodette",
+            "repo": "mori",
+            "stars": 3370
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sanctuary",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2024-11-10T16:48:46Z",
+            "owner": "sanctuary-js",
+            "repo": "sanctuary",
+            "stars": 3051
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fluture",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2024-04-22T19:36:55Z",
+            "owner": "fluture-js",
+            "repo": "Fluture",
+            "stars": 2493
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Crocks",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-01-06T01:32:51Z",
+            "owner": "evilsoft",
+            "repo": "crocks",
+            "stars": 1598
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ramda-adjunct",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-11T23:57:29Z",
+            "owner": "char0n",
+            "repo": "ramda-adjunct",
+            "stars": 687
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Haskell in ES6",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2016-08-20T18:46:34Z",
+            "owner": "casualjavascript",
+            "repo": "haskell-in-es6",
+            "stars": 286
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "maryamyriameliamurphies.js",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2017-05-27T21:49:29Z",
+            "owner": "sjsyrek",
+            "repo": "maryamyriameliamurphies.js",
+            "stars": 182
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ramda-extension",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2025-04-01T11:34:11Z",
+            "owner": "tommmyy",
+            "repo": "ramda-extension",
+            "stars": 167
+          }
+        }
+      ],
+      "title": "Functional Programming Libraries in JavaScript"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:02:02.781Z",
+    "original_repository": "hemanth/functional-programming-jargon",
+    "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
+    "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
+    "enhanced_repository_description": null,
+    "title": "Awesome Functional Programming Jargon with stars"
+  }
+}
