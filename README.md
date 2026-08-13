@@ -9,7 +9,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 **Translations**
 
 * [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,429 | 🐛 29 | 🌐 Rust | 📅 2026-03-12
-* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,282 | 🐛 2 | 📅 2023-01-29
+* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,281 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 232 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
 * [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional) ⭐ 162 | 🐛 2 | 📅 2019-12-23
@@ -1238,14 +1238,14 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,319 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,321 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,045 | 🐛 132 | 🌐 TypeScript | 📅 2026-08-06
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,979 | 🐛 57 | 🌐 JavaScript | 📅 2026-08-11
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,340 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,338 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,059 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,534 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,535 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,967 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
-* [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
+* [mori](https://github.com/swannodette/mori) ⭐ 3,369 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,051 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,598 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06

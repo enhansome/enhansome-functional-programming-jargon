@@ -249,7 +249,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61319
+            "stars": 61321
           }
         },
         {
@@ -291,7 +291,7 @@
             "last_commit": "2026-08-12T13:38:20Z",
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27340
+            "stars": 27338
           }
         },
         {
@@ -319,7 +319,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11534
+            "stars": 11535
           }
         },
         {
@@ -347,7 +347,7 @@
             "last_commit": "2026-03-06T23:41:00Z",
             "owner": "swannodette",
             "repo": "mori",
-            "stars": 3370
+            "stars": 3369
           }
         },
         {
@@ -453,7 +453,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-13T04:02:02.781Z",
+    "last_updated": "2026-08-13T22:54:23.062Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
