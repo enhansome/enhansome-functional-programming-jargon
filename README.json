@@ -249,7 +249,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61321
+            "stars": 61327
           }
         },
         {
@@ -260,10 +260,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-06T21:15:35Z",
+            "last_commit": "2026-08-14T21:50:44Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33045
+            "stars": 33043
           }
         },
         {
@@ -277,7 +277,7 @@
             "last_commit": "2026-08-11T23:24:46Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28979
+            "stars": 28978
           }
         },
         {
@@ -319,7 +319,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11535
+            "stars": 11536
           }
         },
         {
@@ -400,7 +400,7 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-11T23:57:29Z",
+            "last_commit": "2026-08-14T00:00:57Z",
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687
@@ -453,7 +453,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-13T22:54:23.062Z",
+    "last_updated": "2026-08-14T22:33:00.957Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",

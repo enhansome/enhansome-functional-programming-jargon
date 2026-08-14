@@ -2,13 +2,13 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,646 | 🐛 27 | 📅 2023-10-17
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,645 | 🐛 27 | 📅 2023-10-17
 
-Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,241 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
+Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,242 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
 **Translations**
 
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,429 | 🐛 29 | 🌐 Rust | 📅 2026-03-12
+* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,430 | 🐛 29 | 🌐 Rust | 📅 2026-03-12
 * [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,281 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 232 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
@@ -1238,18 +1238,18 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,321 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,045 | 🐛 132 | 🌐 TypeScript | 📅 2026-08-06
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,979 | 🐛 57 | 🌐 JavaScript | 📅 2026-08-11
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,327 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,043 | 🐛 130 | 🌐 TypeScript | 📅 2026-08-14
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,978 | 🐛 57 | 🌐 JavaScript | 📅 2026-08-11
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,338 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,059 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,535 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,536 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,967 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,369 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,051 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,598 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
-* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 68 | 🌐 JavaScript | 📅 2026-08-11
+* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 68 | 🌐 JavaScript | 📅 2026-08-14
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
 * [maryamyriameliamurphies.js](https://github.com/sjsyrek/maryamyriameliamurphies.js) ⭐ 182 | 🐛 19 | 🌐 JavaScript | 📅 2017-05-27
 * [ramda-extension](https://github.com/tommmyy/ramda-extension) ⭐ 167 | 🐛 33 | 🌐 HTML | 📅 2025-04-01
@@ -1258,8 +1258,8 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,646 | 🐛 27 | 📅 2023-10-17!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,645 | 🐛 27 | 📅 2023-10-17!
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-14._
