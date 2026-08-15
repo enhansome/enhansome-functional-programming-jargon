@@ -1054,7 +1054,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,059 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,058 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1238,15 +1238,15 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,327 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,043 | 🐛 130 | 🌐 TypeScript | 📅 2026-08-14
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,978 | 🐛 57 | 🌐 JavaScript | 📅 2026-08-11
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,338 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,059 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,536 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
-* [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,967 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,289 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,041 | 🐛 129 | 🌐 TypeScript | 📅 2026-08-15
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,976 | 🐛 58 | 🌐 JavaScript | 📅 2026-08-11
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,337 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,058 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,537 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,968 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,369 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
-* [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,051 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
+* [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,052 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,598 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
 * [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 68 | 🌐 JavaScript | 📅 2026-08-14
@@ -1262,4 +1262,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-15._

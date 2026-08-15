@@ -249,7 +249,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61327
+            "stars": 61289
           }
         },
         {
@@ -260,10 +260,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T21:50:44Z",
+            "last_commit": "2026-08-15T21:22:48Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33043
+            "stars": 33041
           }
         },
         {
@@ -277,7 +277,7 @@
             "last_commit": "2026-08-11T23:24:46Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28978
+            "stars": 28976
           }
         },
         {
@@ -291,7 +291,7 @@
             "last_commit": "2026-08-12T13:38:20Z",
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27338
+            "stars": 27337
           }
         },
         {
@@ -305,7 +305,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24059
+            "stars": 24058
           }
         },
         {
@@ -319,7 +319,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11536
+            "stars": 11537
           }
         },
         {
@@ -333,7 +333,7 @@
             "last_commit": "2020-07-15T20:12:33Z",
             "owner": "dtao",
             "repo": "lazy.js",
-            "stars": 5967
+            "stars": 5968
           }
         },
         {
@@ -361,7 +361,7 @@
             "last_commit": "2024-11-10T16:48:46Z",
             "owner": "sanctuary-js",
             "repo": "sanctuary",
-            "stars": 3051
+            "stars": 3052
           }
         },
         {
@@ -453,7 +453,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T22:33:00.957Z",
+    "last_updated": "2026-08-15T22:31:11.346Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
