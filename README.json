@@ -249,7 +249,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61289
+            "stars": 61286
           }
         },
         {
@@ -260,10 +260,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T21:22:48Z",
+            "last_commit": "2026-08-16T22:25:15Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33041
+            "stars": 33039
           }
         },
         {
@@ -274,10 +274,10 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-11T23:24:46Z",
+            "last_commit": "2026-08-16T03:11:09Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28976
+            "stars": 28974
           }
         },
         {
@@ -319,7 +319,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11537
+            "stars": 11539
           }
         },
         {
@@ -453,7 +453,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T22:31:11.346Z",
+    "last_updated": "2026-08-16T22:30:30.735Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
