@@ -249,7 +249,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61292
+            "stars": 61291
           }
         },
         {
@@ -277,7 +277,7 @@
             "last_commit": "2026-08-16T03:11:09Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28978
+            "stars": 28979
           }
         },
         {
@@ -291,7 +291,7 @@
             "last_commit": "2026-08-12T13:38:20Z",
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27334
+            "stars": 27332
           }
         },
         {
@@ -305,7 +305,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24058
+            "stars": 24060
           }
         },
         {
@@ -319,7 +319,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11540
+            "stars": 11539
           }
         },
         {
@@ -375,7 +375,7 @@
             "last_commit": "2024-04-22T19:36:55Z",
             "owner": "fluture-js",
             "repo": "Fluture",
-            "stars": 2493
+            "stars": 2494
           }
         },
         {
@@ -400,7 +400,7 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-14T00:00:57Z",
+            "last_commit": "2026-08-18T00:00:46Z",
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687
@@ -453,7 +453,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T22:32:57.330Z",
+    "last_updated": "2026-08-18T22:33:20.184Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
