@@ -1240,10 +1240,10 @@ A function which returns a valid result for all inputs defined in its type. This
 
 * [lodash](https://github.com/lodash/lodash) ⭐ 61,291 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,039 | 🐛 127 | 🌐 TypeScript | 📅 2026-08-17
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,979 | 🐛 58 | 🌐 JavaScript | 📅 2026-08-16
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,332 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,333 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,060 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,539 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,538 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,968 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,369 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,052 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
@@ -1262,4 +1262,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-18._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
