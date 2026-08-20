@@ -2,13 +2,13 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,644 | 🐛 27 | 📅 2023-10-17
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,645 | 🐛 27 | 📅 2023-10-17
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
 **Translations**
 
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,430 | 🐛 29 | 🌐 Rust | 📅 2026-03-12
+* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,428 | 🐛 29 | 🌐 Rust | 📅 2026-03-12
 * [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,280 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 232 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
@@ -1054,7 +1054,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,056 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,055 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1079,7 +1079,7 @@ const weakLogicValues = new Set([...bools, ...halfTrue])
 
 Sum types are sometimes called union types, discriminated unions, or tagged unions.
 
-There's a [couple](https://github.com/paldepind/union-type) ⭐ 479 | 🐛 18 | 🌐 JavaScript | 📅 2019-06-05 [libraries](https://github.com/puffnfresh/daggy) ⭐ 708 | 🐛 2 | 🌐 JavaScript | 📅 2021-07-19 in JS which help with defining and using union types.
+There's a [couple](https://github.com/paldepind/union-type) ⭐ 479 | 🐛 18 | 🌐 JavaScript | 📅 2019-06-05 [libraries](https://github.com/puffnfresh/daggy) ⭐ 707 | 🐛 2 | 🌐 JavaScript | 📅 2021-07-19 in JS which help with defining and using union types.
 
 Flow includes [union types](https://flow.org/en/docs/types/unions/) and TypeScript has [Enums](https://www.typescriptlang.org/docs/handbook/enums.html) to serve the same role.
 
@@ -1239,15 +1239,15 @@ A function which returns a valid result for all inputs defined in its type. This
 ## Functional Programming Libraries in JavaScript
 
 * [lodash](https://github.com/lodash/lodash) ⭐ 61,289 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,039 | 🐛 127 | 🌐 TypeScript | 📅 2026-08-17
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,333 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,056 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,040 | 🐛 127 | 🌐 TypeScript | 📅 2026-08-17
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,979 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,334 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,055 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,538 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,968 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,369 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,052 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
-* [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,494 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
+* [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,598 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
 * [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 69 | 🌐 JavaScript | 📅 2026-08-18
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
@@ -1258,8 +1258,8 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,644 | 🐛 27 | 📅 2023-10-17!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,645 | 🐛 27 | 📅 2023-10-17!
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._

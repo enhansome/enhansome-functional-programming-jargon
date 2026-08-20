@@ -30,7 +30,7 @@
             "last_commit": "2026-08-17T09:22:33Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33039
+            "stars": 33040
           }
         },
         {
@@ -45,7 +45,7 @@
             "last_commit": "2026-08-19T07:57:23Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980
+            "stars": 28979
           }
         },
         {
@@ -60,7 +60,7 @@
             "last_commit": "2026-08-12T13:38:20Z",
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27333
+            "stars": 27334
           }
         },
         {
@@ -75,7 +75,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24056
+            "stars": 24055
           }
         },
         {
@@ -150,7 +150,7 @@
             "last_commit": "2024-04-22T19:36:55Z",
             "owner": "fluture-js",
             "repo": "Fluture",
-            "stars": 2494
+            "stars": 2493
           }
         },
         {
@@ -233,7 +233,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T22:33:46.828Z",
+    "last_updated": "2026-08-20T22:36:28.484Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_id": 31168578,
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
