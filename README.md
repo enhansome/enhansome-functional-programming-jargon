@@ -1238,10 +1238,10 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,293 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,040 | 🐛 128 | 🌐 TypeScript | 📅 2026-08-17
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,978 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,332 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,291 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,041 | 🐛 128 | 🌐 TypeScript | 📅 2026-08-17
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,330 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,056 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,539 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,968 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
@@ -1262,4 +1262,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-23._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-24._

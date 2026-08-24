@@ -1,6 +1,249 @@
 {
   "items": [
     {
+      "description": "Table of Contents",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Rust World",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 189298148,
+            "language": "Rust",
+            "last_commit": "2026-03-12T13:11:13Z",
+            "owner": "JasonShin",
+            "repo": "fp-core.rs",
+            "stars": 1428
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Chinese",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 83943764,
+            "language": null,
+            "last_commit": "2023-01-29T02:23:10Z",
+            "owner": "shfshanyue",
+            "repo": "fp-jargon-zh",
+            "stars": 1281
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Python World",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 201521945,
+            "language": null,
+            "last_commit": "2021-09-04T05:02:30Z",
+            "owner": "jmesyou",
+            "repo": "functional-programming-jargon.py",
+            "stars": 231
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Scala World",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 110401909,
+            "language": "Scala",
+            "last_commit": "2023-11-30T06:18:12Z",
+            "owner": "ikhoon",
+            "repo": "functional-programming-jargon.scala",
+            "stars": 231
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Portuguese",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 64135791,
+            "language": null,
+            "last_commit": "2019-12-23T11:49:39Z",
+            "owner": "alexmoreno",
+            "repo": "jargoes-programacao-funcional",
+            "stars": 161
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Korean",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 110350193,
+            "language": null,
+            "last_commit": "2017-12-27T03:24:06Z",
+            "owner": "sphilee",
+            "repo": "functional-programming-jargon",
+            "stars": 107
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Julia World",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 510383682,
+            "language": null,
+            "last_commit": "2022-12-16T15:20:30Z",
+            "owner": "Moelf",
+            "repo": "functional-programming-jargon.jl",
+            "stars": 92
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Bahasa Indonesia",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 94168003,
+            "language": null,
+            "last_commit": "2017-06-23T07:13:14Z",
+            "owner": "wisn",
+            "repo": "jargon-pemrograman-fungsional",
+            "stars": 73
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spanish",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 77622011,
+            "language": null,
+            "last_commit": "2017-04-13T21:43:06Z",
+            "owner": "idcmardelplata",
+            "repo": "functional-programming-jargon",
+            "stars": 63
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Haskell Turkish",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 130886405,
+            "language": "Haskell",
+            "last_commit": "2022-08-03T18:29:52Z",
+            "owner": "mrtkp9993",
+            "repo": "functional-programming-jargon",
+            "stars": 29
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "French",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 557427949,
+            "language": null,
+            "last_commit": "2024-01-17T20:19:44Z",
+            "owner": "marcwrobel",
+            "repo": "functional-programming-jargon-fr",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Polish",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 149497681,
+            "language": null,
+            "last_commit": "2019-02-12T11:58:20Z",
+            "owner": "Deloryn",
+            "repo": "functional-programming-jargon",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Haskell Russian",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 230577017,
+            "language": "Python",
+            "last_commit": "2020-01-15T12:40:59Z",
+            "owner": "epogrebnyak",
+            "repo": "functional-programming-jargon",
+            "stars": 10
+          }
+        }
+      ],
+      "title": "Overview"
+    },
+    {
+      "description": "A lens is a structure (often an object or function) that pairs a getter and a non-mutating setter for some other data structure.\nHaving the pair of get and set for a given data structure enables a few key features.\nLenses are also composable. This allows easy immutable updates to deeply nested data.\nOther implementations:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "partial.lenses",
+          "description": "Tasty syntax sugar and a lot of powerful features",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 50582234,
+            "language": "JavaScript",
+            "last_commit": "2021-11-18T13:19:33Z",
+            "owner": "calmm-js",
+            "repo": "partial.lenses",
+            "stars": 924
+          }
+        }
+      ],
+      "title": "Lens"
+    },
+    {
+      "description": "Often functions in JavaScript will include comments that indicate the types of their arguments and return values.\nThere's quite a bit of variance across the community, but they often follow the following patterns:\nIf a function accepts another function as an argument it is wrapped in parentheses.\nThe letters , , , are used to signify that the argument can be of any type. The following version of takes a function that transforms a value of some type into another type , an array of values of type , and returns an array of values of type .\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Ramda's type signatures",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 10851820,
+            "language": "JavaScript",
+            "last_commit": "2026-07-26T15:18:52Z",
+            "owner": "ramda",
+            "repo": "ramda",
+            "stars": 24056
+          }
+        }
+      ],
+      "title": "Type Signatures"
+    },
+    {
       "description": "P.S: This repo is successful due to the wonderful contributions!",
       "items": [
         {
@@ -15,7 +258,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61293
+            "stars": 61291
           }
         },
         {
@@ -30,7 +273,7 @@
             "last_commit": "2026-08-17T09:22:33Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33040
+            "stars": 33041
           }
         },
         {
@@ -45,7 +288,7 @@
             "last_commit": "2026-08-19T07:57:23Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28978
+            "stars": 28980
           }
         },
         {
@@ -60,7 +303,7 @@
             "last_commit": "2026-08-12T13:38:20Z",
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27332
+            "stars": 27330
           }
         },
         {
@@ -233,7 +476,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T22:30:50.337Z",
+    "last_updated": "2026-08-24T13:53:22.410Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_id": 31168578,
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
