@@ -237,7 +237,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24058
+            "stars": 24057
           }
         }
       ],
@@ -258,7 +258,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61291
+            "stars": 61290
           }
         },
         {
@@ -288,7 +288,7 @@
             "last_commit": "2026-08-19T07:57:23Z",
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980
+            "stars": 28981
           }
         },
         {
@@ -318,7 +318,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24058
+            "stars": 24057
           }
         },
         {
@@ -333,7 +333,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11539
+            "stars": 11541
           }
         },
         {
@@ -420,7 +420,7 @@
             "archived": false,
             "id": 81263716,
             "language": "JavaScript",
-            "last_commit": "2026-08-18T00:00:46Z",
+            "last_commit": "2026-08-24T23:54:28Z",
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687
@@ -476,7 +476,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T22:36:18.883Z",
+    "last_updated": "2026-08-25T05:52:10.466Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_id": 31168578,
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
