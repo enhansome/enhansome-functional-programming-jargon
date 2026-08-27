@@ -258,7 +258,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61283
+            "stars": 61284
           }
         },
         {
@@ -273,7 +273,7 @@
             "last_commit": "2026-08-17T09:22:33Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33040
+            "stars": 33041
           }
         },
         {
@@ -476,9 +476,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T03:03:44.696Z",
-    "original_repository": "hemanth/functional-programming-jargon",
-    "original_repository_id": 31168578,
+    "last_updated": "2026-08-27T11:38:26.304Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 31168578,
+      "language": null,
+      "last_commit": "2023-10-17T12:04:55Z",
+      "owner": "hemanth",
+      "repo": "functional-programming-jargon",
+      "stars": 18647
+    },
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
     "enhanced_repository_description": null,

@@ -1238,8 +1238,8 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,283 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,040 | 🐛 128 | 🌐 TypeScript | 📅 2026-08-17
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,284 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,041 | 🐛 129 | 🌐 TypeScript | 📅 2026-08-17
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,329 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,055 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
