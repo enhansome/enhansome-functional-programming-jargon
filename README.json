@@ -30,7 +30,7 @@
             "last_commit": "2023-01-29T02:23:10Z",
             "owner": "shfshanyue",
             "repo": "fp-jargon-zh",
-            "stars": 1281
+            "stars": 1280
           }
         },
         {
@@ -120,7 +120,7 @@
             "last_commit": "2017-06-23T07:13:14Z",
             "owner": "wisn",
             "repo": "jargon-pemrograman-fungsional",
-            "stars": 73
+            "stars": 74
           }
         },
         {
@@ -237,7 +237,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24056
+            "stars": 24055
           }
         }
       ],
@@ -258,7 +258,7 @@
             "last_commit": "2026-07-03T19:48:01Z",
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61290
+            "stars": 61283
           }
         },
         {
@@ -273,7 +273,7 @@
             "last_commit": "2026-08-17T09:22:33Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33041
+            "stars": 33040
           }
         },
         {
@@ -303,7 +303,7 @@
             "last_commit": "2026-08-12T13:38:20Z",
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27330
+            "stars": 27329
           }
         },
         {
@@ -318,7 +318,7 @@
             "last_commit": "2026-07-26T15:18:52Z",
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24056
+            "stars": 24055
           }
         },
         {
@@ -333,7 +333,7 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11541
+            "stars": 11540
           }
         },
         {
@@ -348,7 +348,7 @@
             "last_commit": "2020-07-15T20:12:33Z",
             "owner": "dtao",
             "repo": "lazy.js",
-            "stars": 5968
+            "stars": 5966
           }
         },
         {
@@ -476,7 +476,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T22:36:19.419Z",
+    "last_updated": "2026-08-27T03:03:44.696Z",
     "original_repository": "hemanth/functional-programming-jargon",
     "original_repository_id": 31168578,
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",

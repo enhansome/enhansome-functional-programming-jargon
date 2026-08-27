@@ -9,13 +9,13 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 **Translations**
 
 * [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,428 | 🐛 29 | 🌐 Rust | 📅 2026-03-12
-* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,281 | 🐛 2 | 📅 2023-01-29
+* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,280 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
 * [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional) ⭐ 161 | 🐛 2 | 📅 2019-12-23
 * [Korean](https://github.com/sphilee/functional-programming-jargon) ⭐ 107 | 🐛 0 | 📅 2017-12-27
 * [Julia World](https://github.com/Moelf/functional-programming-jargon.jl) ⭐ 92 | 🐛 0 | 📅 2022-12-16
-* [Bahasa Indonesia](https://github.com/wisn/jargon-pemrograman-fungsional) ⭐ 73 | 🐛 0 | 📅 2017-06-23
+* [Bahasa Indonesia](https://github.com/wisn/jargon-pemrograman-fungsional) ⭐ 74 | 🐛 0 | 📅 2017-06-23
 * [Spanish](https://github.com/idcmardelplata/functional-programming-jargon/tree/master) ⭐ 63 | 🐛 0 | 📅 2017-04-13
 * [Haskell Turkish](https://github.com/mrtkp9993/functional-programming-jargon) ⭐ 29 | 🐛 0 | 🌐 Haskell | 📅 2022-08-03
 * [French](https://github.com/marcwrobel/functional-programming-jargon-fr) ⭐ 17 | 🐛 0 | 📅 2024-01-17
@@ -1054,7 +1054,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,056 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,055 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1238,13 +1238,13 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,290 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,041 | 🐛 128 | 🌐 TypeScript | 📅 2026-08-17
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,283 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,040 | 🐛 128 | 🌐 TypeScript | 📅 2026-08-17
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,330 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,056 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,541 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
-* [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,968 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,329 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,055 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,540 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,966 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,369 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,052 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
@@ -1262,4 +1262,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-27._
