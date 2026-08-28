@@ -16,7 +16,8 @@
             "owner": "JasonShin",
             "repo": "fp-core.rs",
             "stars": 1428
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -31,7 +32,8 @@
             "owner": "shfshanyue",
             "repo": "fp-jargon-zh",
             "stars": 1280
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -46,7 +48,8 @@
             "owner": "jmesyou",
             "repo": "functional-programming-jargon.py",
             "stars": 231
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -61,7 +64,8 @@
             "owner": "ikhoon",
             "repo": "functional-programming-jargon.scala",
             "stars": 231
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -76,7 +80,8 @@
             "owner": "alexmoreno",
             "repo": "jargoes-programacao-funcional",
             "stars": 161
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -91,7 +96,8 @@
             "owner": "sphilee",
             "repo": "functional-programming-jargon",
             "stars": 107
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -106,7 +112,8 @@
             "owner": "Moelf",
             "repo": "functional-programming-jargon.jl",
             "stars": 92
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -121,7 +128,8 @@
             "owner": "wisn",
             "repo": "jargon-pemrograman-fungsional",
             "stars": 74
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -136,7 +144,8 @@
             "owner": "idcmardelplata",
             "repo": "functional-programming-jargon",
             "stars": 63
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -151,7 +160,8 @@
             "owner": "mrtkp9993",
             "repo": "functional-programming-jargon",
             "stars": 29
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -166,7 +176,8 @@
             "owner": "marcwrobel",
             "repo": "functional-programming-jargon-fr",
             "stars": 17
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -181,7 +192,8 @@
             "owner": "Deloryn",
             "repo": "functional-programming-jargon",
             "stars": 13
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -196,7 +208,8 @@
             "owner": "epogrebnyak",
             "repo": "functional-programming-jargon",
             "stars": 10
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         }
       ],
       "title": "Overview"
@@ -217,7 +230,8 @@
             "owner": "calmm-js",
             "repo": "partial.lenses",
             "stars": 924
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         }
       ],
       "title": "Lens"
@@ -238,7 +252,8 @@
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24055
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         }
       ],
       "title": "Type Signatures"
@@ -259,7 +274,8 @@
             "owner": "lodash",
             "repo": "lodash",
             "stars": 61284
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -270,11 +286,12 @@
             "archived": false,
             "id": 21413198,
             "language": "TypeScript",
-            "last_commit": "2026-08-17T09:22:33Z",
+            "last_commit": "2026-08-27T12:12:31Z",
             "owner": "immutable-js",
             "repo": "immutable-js",
             "stars": 33041
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -289,7 +306,8 @@
             "owner": "immerjs",
             "repo": "immer",
             "stars": 28980
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -304,7 +322,8 @@
             "owner": "jashkenas",
             "repo": "underscore",
             "stars": 27329
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -319,7 +338,8 @@
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24055
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -333,8 +353,9 @@
             "last_commit": "2026-04-20T19:55:05Z",
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11540
-          }
+            "stars": 11541
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -349,7 +370,8 @@
             "owner": "dtao",
             "repo": "lazy.js",
             "stars": 5966
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -364,7 +386,8 @@
             "owner": "swannodette",
             "repo": "mori",
             "stars": 3369
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -379,7 +402,8 @@
             "owner": "sanctuary-js",
             "repo": "sanctuary",
             "stars": 3052
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -394,7 +418,8 @@
             "owner": "fluture-js",
             "repo": "Fluture",
             "stars": 2493
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -409,7 +434,8 @@
             "owner": "evilsoft",
             "repo": "crocks",
             "stars": 1598
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -420,11 +446,12 @@
             "archived": false,
             "id": 81263716,
             "language": "JavaScript",
-            "last_commit": "2026-08-24T23:54:28Z",
+            "last_commit": "2026-08-28T00:01:37Z",
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -439,7 +466,8 @@
             "owner": "casualjavascript",
             "repo": "haskell-in-es6",
             "stars": 286
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -454,7 +482,8 @@
             "owner": "sjsyrek",
             "repo": "maryamyriameliamurphies.js",
             "stars": 182
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         },
         {
           "node_type": "item",
@@ -469,14 +498,15 @@
             "owner": "tommmyy",
             "repo": "ramda-extension",
             "stars": 167
-          }
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
         }
       ],
       "title": "Functional Programming Libraries in JavaScript"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:38:26.304Z",
+    "last_updated": "2026-08-28T06:04:02.815Z",
     "original_repository_info": {
       "archived": false,
       "id": 31168578,
