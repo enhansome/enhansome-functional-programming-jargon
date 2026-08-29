@@ -10,12 +10,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A library for functional programming in Rust",
+            "homepage": null,
             "id": 189298148,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-03-12T13:11:13Z",
+            "open_issues": 29,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1428
+            "stars": 1428,
+            "topics": [
+              "applicative",
+              "category-theory",
+              "comonad",
+              "functional-programming",
+              "functor",
+              "hkt",
+              "homomorphism",
+              "lambda-calculus",
+              "monad",
+              "monoid",
+              "morphism",
+              "rust"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -26,12 +44,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "函数式编程术语及示例。本项目译自 https://github.com/hemanth/functional-programming-jargon",
+            "homepage": null,
             "id": 83943764,
             "language": null,
+            "license": null,
             "last_commit": "2023-01-29T02:23:10Z",
+            "open_issues": 2,
             "owner": "shfshanyue",
             "repo": "fp-jargon-zh",
-            "stars": 1280
+            "stars": 1280,
+            "topics": [
+              "fp",
+              "functional-programming"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -42,12 +68,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargon from the functional programming world in simple terms!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 201521945,
             "language": null,
+            "license": "MIT",
             "last_commit": "2021-09-04T05:02:30Z",
+            "open_issues": 0,
             "owner": "jmesyou",
             "repo": "functional-programming-jargon.py",
-            "stars": 231
+            "stars": 231,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -58,12 +89,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Scala code examples - Jargon from the functional programming world in simple terms!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 110401909,
             "language": "Scala",
+            "license": "MIT",
             "last_commit": "2023-11-30T06:18:12Z",
+            "open_issues": 0,
             "owner": "ikhoon",
             "repo": "functional-programming-jargon.scala",
-            "stars": 231
+            "stars": 231,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -74,12 +110,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargões da programação funcional em termos simples!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 64135791,
             "language": null,
+            "license": "MIT",
             "last_commit": "2019-12-23T11:49:39Z",
+            "open_issues": 2,
             "owner": "alexmoreno",
             "repo": "jargoes-programacao-funcional",
-            "stars": 161
+            "stars": 161,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -90,12 +131,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargon from the functional programming world in simple terms!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 110350193,
             "language": null,
+            "license": "MIT",
             "last_commit": "2017-12-27T03:24:06Z",
+            "open_issues": 0,
             "owner": "sphilee",
             "repo": "functional-programming-jargon",
-            "stars": 107
+            "stars": 107,
+            "topics": [
+              "fp",
+              "functional-programming"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -106,12 +155,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Julia version: Jargon from the functional programming world in simple terms!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 510383682,
             "language": null,
+            "license": "MIT",
             "last_commit": "2022-12-16T15:20:30Z",
+            "open_issues": 0,
             "owner": "Moelf",
             "repo": "functional-programming-jargon.jl",
-            "stars": 92
+            "stars": 92,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -122,12 +176,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargon dari dunia pemrograman fungsional secara sederhana!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 94168003,
             "language": null,
+            "license": "MIT",
             "last_commit": "2017-06-23T07:13:14Z",
+            "open_issues": 0,
             "owner": "wisn",
             "repo": "jargon-pemrograman-fungsional",
-            "stars": 74
+            "stars": 74,
+            "topics": [
+              "functional-programming",
+              "glossary"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -138,12 +200,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargon from the functional programming world in simple terms!",
+            "homepage": "http://git.io/fp-jargons",
             "id": 77622011,
             "language": null,
+            "license": "MIT",
             "last_commit": "2017-04-13T21:43:06Z",
+            "open_issues": 0,
             "owner": "idcmardelplata",
             "repo": "functional-programming-jargon",
-            "stars": 63
+            "stars": 63,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -154,12 +221,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Basit terimlerle fonksiyonel programlama jargonu!",
+            "homepage": null,
             "id": 130886405,
             "language": "Haskell",
+            "license": "GPL-3.0",
             "last_commit": "2022-08-03T18:29:52Z",
+            "open_issues": 0,
             "owner": "mrtkp9993",
             "repo": "functional-programming-jargon",
-            "stars": 29
+            "stars": 29,
+            "topics": [
+              "functional-programming",
+              "haskell"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -170,12 +245,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Le jargon du monde de la programmation fonctionnelle en termes simples !",
+            "homepage": null,
             "id": 557427949,
             "language": null,
+            "license": "MIT",
             "last_commit": "2024-01-17T20:19:44Z",
+            "open_issues": 0,
             "owner": "marcwrobel",
             "repo": "functional-programming-jargon-fr",
-            "stars": 17
+            "stars": 17,
+            "topics": [
+              "fp",
+              "functional-programming",
+              "programmation-fonctionnelle"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -186,12 +270,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargon from the functional programming world in simple terms! My translation to Polish language. Original version:",
+            "homepage": "http://git.io/fp-jargons",
             "id": 149497681,
             "language": null,
+            "license": "MIT",
             "last_commit": "2019-02-12T11:58:20Z",
+            "open_issues": 0,
             "owner": "Deloryn",
             "repo": "functional-programming-jargon",
-            "stars": 13
+            "stars": 13,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -202,12 +291,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Jargon from the functional programming world in simple terms!",
+            "homepage": "https://epogrebnyak.github.io/functional-programming-jargon/",
             "id": 230577017,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2020-01-15T12:40:59Z",
+            "open_issues": 6,
             "owner": "epogrebnyak",
             "repo": "functional-programming-jargon",
-            "stars": 10
+            "stars": 10,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         }
@@ -224,12 +318,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Partial lenses is a comprehensive, high-performance optics library for JavaScript",
+            "homepage": null,
             "id": 50582234,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2021-11-18T13:19:33Z",
+            "open_issues": 23,
             "owner": "calmm-js",
             "repo": "partial.lenses",
-            "stars": 924
+            "stars": 924,
+            "topics": [
+              "counterculture",
+              "fold",
+              "functional",
+              "immutable",
+              "isomorphism",
+              "json",
+              "lens",
+              "optics",
+              "partial-lenses",
+              "traversal"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         }
@@ -246,12 +356,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": ":ram: Practical functional Javascript",
+            "homepage": "https://ramdajs.com",
             "id": 10851820,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-07-26T15:18:52Z",
+            "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24055
+            "stars": 24055,
+            "topics": [
+              "javascript",
+              "ramda"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         }
@@ -268,12 +386,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+            "homepage": "https://lodash.com/",
             "id": 3955647,
             "language": "JavaScript",
+            "license": "NOASSERTION",
             "last_commit": "2026-07-03T19:48:01Z",
+            "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61284
+            "stars": 61283,
+            "topics": [
+              "javascript",
+              "lodash",
+              "modules",
+              "utilities"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -284,12 +412,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
+            "homepage": "https://immutable-js.com",
             "id": 21413198,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-27T12:12:31Z",
+            "open_issues": 130,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33041
+            "stars": 33040,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -300,12 +433,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Create the next immutable state by mutating the current one",
+            "homepage": "https://immerjs.github.io/immer/",
             "id": 115720575,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-19T07:57:23Z",
+            "open_issues": 39,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980
+            "stars": 28981,
+            "topics": [
+              "immutable",
+              "immutables",
+              "reducer",
+              "redux",
+              "state-tree"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -316,12 +460,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "JavaScript's utility _ belt",
+            "homepage": "https://underscorejs.org",
             "id": 349241,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-12T13:38:20Z",
+            "open_issues": 52,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27329
+            "stars": 27329,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -332,12 +481,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": ":ram: Practical functional Javascript",
+            "homepage": "https://ramdajs.com",
             "id": 10851820,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-07-26T15:18:52Z",
+            "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24055
+            "stars": 24055,
+            "topics": [
+              "javascript",
+              "ramda"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -348,12 +505,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Functional programming in TypeScript",
+            "homepage": "https://gcanti.github.io/fp-ts/",
             "id": 80039696,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-04-20T19:55:05Z",
+            "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11541
+            "stars": 11541,
+            "topics": [
+              "algebraic-data-types",
+              "functional-programming",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -364,12 +530,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Like Underscore, but lazier",
+            "homepage": "http://danieltao.com/lazy.js/",
             "id": 9983223,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2020-07-15T20:12:33Z",
+            "open_issues": 59,
             "owner": "dtao",
             "repo": "lazy.js",
-            "stars": 5966
+            "stars": 5966,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -380,12 +551,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ClojureScript's persistent data structures and supporting API from the comfort of vanilla JavaScript",
+            "homepage": "http://swannodette.github.io/mori",
             "id": 4292299,
             "language": "Clojure",
+            "license": null,
             "last_commit": "2026-03-06T23:41:00Z",
+            "open_issues": 64,
             "owner": "swannodette",
             "repo": "mori",
-            "stars": 3369
+            "stars": 3369,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -396,12 +572,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": ":see_no_evil: Refuge from unsafe JavaScript",
+            "homepage": "https://sanctuary.js.org",
             "id": 29455960,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2024-11-10T16:48:46Z",
+            "open_issues": 36,
             "owner": "sanctuary-js",
             "repo": "sanctuary",
-            "stars": 3052
+            "stars": 3052,
+            "topics": [
+              "fantasy-land",
+              "sanctuary"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -412,12 +596,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🦋 Fantasy Land compliant (monadic) alternative to Promises",
+            "homepage": null,
             "id": 53253439,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2024-04-22T19:36:55Z",
+            "open_issues": 12,
             "owner": "fluture-js",
             "repo": "Fluture",
-            "stars": 2493
+            "stars": 2493,
+            "topics": [
+              "algebraic-data-types",
+              "async",
+              "cancellation",
+              "control-flow",
+              "fantasy-land",
+              "fluture",
+              "functional-programming",
+              "future",
+              "monad",
+              "promise",
+              "sanctuary"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -428,12 +629,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A collection of well known Algebraic Data Types for your utter enjoyment.",
+            "homepage": "https://crocks.dev",
             "id": 62473217,
             "language": "JavaScript",
+            "license": "ISC",
             "last_commit": "2023-01-06T01:32:51Z",
+            "open_issues": 69,
             "owner": "evilsoft",
             "repo": "crocks",
-            "stars": 1598
+            "stars": 1598,
+            "topics": [
+              "adt",
+              "composition",
+              "curry",
+              "functor",
+              "lift",
+              "monad",
+              "monoid",
+              "pair",
+              "predicate-functions",
+              "unary-functions"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -444,12 +661,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Ramda Adjunct is the most popular and most comprehensive set of functional utilities for use with Ramda, providing a variety of useful, well tested functions with excellent documentation.",
+            "homepage": "https://char0n.github.io/ramda-adjunct/",
             "id": 81263716,
             "language": "JavaScript",
+            "license": "BSD-3-Clause",
             "last_commit": "2026-08-28T00:01:37Z",
+            "open_issues": 69,
             "owner": "char0n",
             "repo": "ramda-adjunct",
-            "stars": 687
+            "stars": 687,
+            "topics": [
+              "addons",
+              "adjunct",
+              "cookbook",
+              "extensions",
+              "extras",
+              "functional-programming",
+              "hacktoberfest",
+              "ramda",
+              "recipes",
+              "toolkit",
+              "utilities",
+              "utils"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -460,12 +695,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Source for \"Haskell in ES6\" article series",
+            "homepage": "http://casualjavascript.com",
             "id": 46074310,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2016-08-20T18:46:34Z",
+            "open_issues": 2,
             "owner": "casualjavascript",
             "repo": "haskell-in-es6",
-            "stars": 286
+            "stars": 286,
+            "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -476,12 +716,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A library of Haskell-style morphisms ported to ES2015 JavaScript using Babel.",
+            "homepage": null,
             "id": 54130546,
             "language": "JavaScript",
+            "license": "NOASSERTION",
             "last_commit": "2017-05-27T21:49:29Z",
+            "open_issues": 19,
             "owner": "sjsyrek",
             "repo": "maryamyriameliamurphies.js",
-            "stars": 182
+            "stars": 182,
+            "topics": [
+              "es2015",
+              "functional-programming",
+              "haskell",
+              "javascript",
+              "monads"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         },
@@ -492,12 +743,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🤘Utility library for functional JavaScript. With ❤️ to Ramda.",
+            "homepage": "https://ramda-extension.web.app/",
             "id": 73802492,
             "language": "HTML",
+            "license": "Apache-2.0",
             "last_commit": "2025-04-01T11:34:11Z",
+            "open_issues": 33,
             "owner": "tommmyy",
             "repo": "ramda-extension",
-            "stars": 167
+            "stars": 167,
+            "topics": [
+              "extensions",
+              "functional-programming",
+              "pointfree",
+              "ramda",
+              "ramda-extension",
+              "ramda-functions",
+              "tools",
+              "toolset",
+              "utilities",
+              "utils"
+            ]
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
         }
@@ -506,15 +773,27 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T06:04:02.815Z",
+    "last_updated": "2026-08-29T03:38:41.159Z",
     "original_repository_info": {
       "archived": false,
+      "description": "Jargon from the functional programming world in simple terms!",
+      "homepage": "http://git.io/fp-jargons",
       "id": 31168578,
       "language": null,
+      "license": "MIT",
       "last_commit": "2023-10-17T12:04:55Z",
+      "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18647
+      "stars": 18646,
+      "topics": [
+        "awesome-list",
+        "education",
+        "fp",
+        "functional-programming",
+        "glossary",
+        "javascript"
+      ]
     },
     "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
