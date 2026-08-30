@@ -395,7 +395,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61282,
+            "stars": 61279,
             "topics": [
               "javascript",
               "lodash",
@@ -439,10 +439,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-08-19T07:57:23Z",
-            "open_issues": 39,
+            "open_issues": 40,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980,
+            "stars": 28981,
             "topics": [
               "immutable",
               "immutables",
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T04:15:11.940Z",
+    "last_updated": "2026-08-30T00:07:27.876Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",

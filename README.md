@@ -1238,9 +1238,9 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,282 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,279 | 🐛 106 | 🌐 JavaScript | 📅 2026-07-03
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,040 | 🐛 130 | 🌐 TypeScript | 📅 2026-08-27
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 39 | 🌐 JavaScript | 📅 2026-08-19
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,981 | 🐛 40 | 🌐 JavaScript | 📅 2026-08-19
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,328 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,055 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,541 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
@@ -1262,4 +1262,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-29._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-30._
