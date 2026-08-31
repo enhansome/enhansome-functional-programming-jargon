@@ -395,7 +395,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61279,
+            "stars": 61278,
             "topics": [
               "javascript",
               "lodash",
@@ -514,7 +514,7 @@
             "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11541,
+            "stars": 11543,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-30T00:07:27.876Z",
+    "last_updated": "2026-08-31T00:24:13.840Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
