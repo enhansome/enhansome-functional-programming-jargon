@@ -365,7 +365,7 @@
             "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24055,
+            "stars": 24056,
             "topics": [
               "javascript",
               "ramda"
@@ -395,7 +395,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61278,
+            "stars": 61280,
             "topics": [
               "javascript",
               "lodash",
@@ -490,7 +490,7 @@
             "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24055,
+            "stars": 24056,
             "topics": [
               "javascript",
               "ramda"
@@ -560,7 +560,7 @@
             "open_issues": 64,
             "owner": "swannodette",
             "repo": "mori",
-            "stars": 3369,
+            "stars": 3370,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -666,7 +666,7 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-08-28T00:01:37Z",
+            "last_commit": "2026-09-01T00:08:49Z",
             "open_issues": 69,
             "owner": "char0n",
             "repo": "ramda-adjunct",
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-31T00:24:13.840Z",
+    "last_updated": "2026-09-01T01:12:39.850Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
