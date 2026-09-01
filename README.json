@@ -16,7 +16,7 @@
             "language": "Rust",
             "license": "MIT",
             "last_commit": "2026-03-12T13:11:13Z",
-            "open_issues": 29,
+            "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
             "stars": 1428,
@@ -395,7 +395,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61280,
+            "stars": 61277,
             "topics": [
               "javascript",
               "lodash",
@@ -421,7 +421,7 @@
             "open_issues": 130,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33040,
+            "stars": 33037,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -469,7 +469,7 @@
             "open_issues": 52,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27328,
+            "stars": 27327,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -514,7 +514,7 @@
             "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11543,
+            "stars": 11545,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-01T01:12:39.850Z",
+    "last_updated": "2026-09-01T23:58:41.678Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -785,7 +785,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18646,
+      "stars": 18648,
       "topics": [
         "awesome-list",
         "education",
