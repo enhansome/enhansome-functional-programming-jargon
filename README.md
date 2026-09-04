@@ -4,7 +4,7 @@ Functional programming (FP) provides many advantages, and its popularity has bee
 
 Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,649 | 🐛 27 | 📅 2023-10-17
 
-Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
+Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,238 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
 **Translations**
 
@@ -1238,18 +1238,18 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,279 | 🐛 104 | 🌐 JavaScript | 📅 2026-07-03
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,277 | 🐛 104 | 🌐 JavaScript | 📅 2026-07-03
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,035 | 🐛 132 | 🌐 TypeScript | 📅 2026-09-03
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,981 | 🐛 42 | 🌐 JavaScript | 📅 2026-09-03
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,325 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,054 | 🐛 146 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,545 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,544 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,966 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,052 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,597 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
-* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 72 | 🌐 JavaScript | 📅 2026-09-03
+* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 73 | 🌐 JavaScript | 📅 2026-09-04
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
 * [maryamyriameliamurphies.js](https://github.com/sjsyrek/maryamyriameliamurphies.js) ⭐ 182 | 🐛 19 | 🌐 JavaScript | 📅 2017-05-27
 * [ramda-extension](https://github.com/tommmyy/ramda-extension) ⭐ 167 | 🐛 33 | 🌐 HTML | 📅 2025-04-01
@@ -1262,4 +1262,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-03._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-04._
