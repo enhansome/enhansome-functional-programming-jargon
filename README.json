@@ -327,7 +327,7 @@
             "open_issues": 23,
             "owner": "calmm-js",
             "repo": "partial.lenses",
-            "stars": 924,
+            "stars": 923,
             "topics": [
               "counterculture",
               "fold",
@@ -365,7 +365,7 @@
             "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24053,
+            "stars": 24054,
             "topics": [
               "javascript",
               "ramda"
@@ -395,7 +395,7 @@
             "open_issues": 104,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61278,
+            "stars": 61277,
             "topics": [
               "javascript",
               "lodash",
@@ -418,7 +418,7 @@
             "language": "TypeScript",
             "license": "MIT",
             "last_commit": "2026-09-03T00:12:21Z",
-            "open_issues": 132,
+            "open_issues": 136,
             "owner": "immutable-js",
             "repo": "immutable-js",
             "stars": 33035,
@@ -439,10 +439,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-09-05T07:53:33Z",
-            "open_issues": 44,
+            "open_issues": 45,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980,
+            "stars": 28981,
             "topics": [
               "immutable",
               "immutables",
@@ -490,7 +490,7 @@
             "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24053,
+            "stars": 24054,
             "topics": [
               "javascript",
               "ramda"
@@ -581,7 +581,7 @@
             "open_issues": 36,
             "owner": "sanctuary-js",
             "repo": "sanctuary",
-            "stars": 3052,
+            "stars": 3051,
             "topics": [
               "fantasy-land",
               "sanctuary"
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-05T23:46:16.622Z",
+    "last_updated": "2026-09-06T23:45:01.973Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
