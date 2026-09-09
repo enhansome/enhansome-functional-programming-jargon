@@ -365,7 +365,7 @@
             "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24054,
+            "stars": 24053,
             "topics": [
               "javascript",
               "ramda"
@@ -421,7 +421,7 @@
             "open_issues": 137,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33034,
+            "stars": 33033,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -438,8 +438,8 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-09-05T07:53:33Z",
-            "open_issues": 45,
+            "last_commit": "2026-09-08T23:45:22Z",
+            "open_issues": 46,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 28982,
@@ -490,7 +490,7 @@
             "open_issues": 146,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24054,
+            "stars": 24053,
             "topics": [
               "javascript",
               "ramda"
@@ -666,8 +666,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-09-08T00:08:49Z",
-            "open_issues": 70,
+            "last_commit": "2026-09-08T23:56:59Z",
+            "open_issues": 71,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-08T00:10:38.611Z",
+    "last_updated": "2026-09-09T00:02:27.348Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -785,7 +785,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18649,
+      "stars": 18648,
       "topics": [
         "awesome-list",
         "education",
