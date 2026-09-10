@@ -365,7 +365,7 @@
             "open_issues": 147,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24053,
+            "stars": 24051,
             "topics": [
               "javascript",
               "ramda"
@@ -395,7 +395,7 @@
             "open_issues": 105,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61281,
+            "stars": 61279,
             "topics": [
               "javascript",
               "lodash",
@@ -417,11 +417,11 @@
             "id": 21413198,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-09-03T00:12:21Z",
-            "open_issues": 137,
+            "last_commit": "2026-09-10T02:52:02Z",
+            "open_issues": 138,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33032,
+            "stars": 33031,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -438,8 +438,8 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-09-08T23:45:22Z",
-            "open_issues": 46,
+            "last_commit": "2026-09-10T18:22:18Z",
+            "open_issues": 49,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 28982,
@@ -469,7 +469,7 @@
             "open_issues": 52,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27323,
+            "stars": 27321,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -490,7 +490,7 @@
             "open_issues": 147,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24053,
+            "stars": 24051,
             "topics": [
               "javascript",
               "ramda"
@@ -539,7 +539,7 @@
             "open_issues": 59,
             "owner": "dtao",
             "repo": "lazy.js",
-            "stars": 5966,
+            "stars": 5965,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -581,7 +581,7 @@
             "open_issues": 36,
             "owner": "sanctuary-js",
             "repo": "sanctuary",
-            "stars": 3051,
+            "stars": 3050,
             "topics": [
               "fantasy-land",
               "sanctuary"
@@ -666,7 +666,7 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-09-08T23:56:59Z",
+            "last_commit": "2026-09-10T23:59:31Z",
             "open_issues": 71,
             "owner": "char0n",
             "repo": "ramda-adjunct",
@@ -773,7 +773,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T00:04:18.897Z",
+    "last_updated": "2026-09-10T23:59:46.016Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
