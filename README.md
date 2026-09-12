@@ -2,9 +2,12 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,648 | 🐛 27 | 📅 2023-10-17
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,649 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-12
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
+
+> 🌐 **Interactive Graph**: [hemanth.github.io/functional-programming-jargon](https://hemanth.github.io/functional-programming-jargon)
+> 🤖 **Agent / LLM Spec**: [hemanth.github.io/functional-programming-jargon/llms.txt](https://hemanth.github.io/functional-programming-jargon/llms.txt)
 
 **Translations**
 
@@ -34,6 +37,9 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Auto Currying](#auto-currying)
 * [Function Composition](#function-composition)
 * [Continuation](#continuation)
+* [IO](#io)
+* [Trampoline](#trampoline)
+* [Thunk](#thunk)
 * [Pure Function](#pure-function)
 * [Side effects](#side-effects)
 * [Idempotence](#idempotence)
@@ -51,6 +57,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Lift](#lift)
 * [Referential Transparency](#referential-transparency)
 * [Equational Reasoning](#equational-reasoning)
+* [Memoization](#memoization)
 * [Lambda](#lambda)
 * [Lambda Calculus](#lambda-calculus)
 * [Functional Combinator](#functional-combinator)
@@ -60,6 +67,9 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Comonad](#comonad)
 * [Kleisli Composition](#kleisli-composition)
 * [Applicative Functor](#applicative-functor)
+* [Bifunctor](#bifunctor)
+* [Contravariant Functor](#contravariant-functor)
+* [Alternative](#alternative)
 * [Morphism](#morphism)
   * [Homomorphism](#homomorphism)
   * [Endomorphism](#endomorphism)
@@ -69,15 +79,20 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
   * [Hylomorphism](#hylomorphism)
   * [Paramorphism](#paramorphism)
   * [Apomorphism](#apomorphism)
+* [Natural Transformation](#natural-transformation)
 * [Setoid](#setoid)
 * [Semigroup](#semigroup)
 * [Foldable](#foldable)
+* [Traversable](#traversable)
 * [Lens](#lens)
+* [Prism](#prism)
+* [Iso](#iso)
 * [Type Signatures](#type-signatures)
 * [Algebraic data type](#algebraic-data-type)
   * [Sum type](#sum-type)
   * [Product type](#product-type)
 * [Option](#option)
+* [Either](#either)
 * [Function](#function)
 * [Partial function](#partial-function)
   * [Dealing with partial functions](#dealing-with-partial-functions)
@@ -246,6 +261,77 @@ readFileAsync('path/to/file', (err, response) => {
   continueProgramWith(response)
 })
 ```
+
+## IO
+
+A pure data structure that encapsulates a side effect. Instead of performing the effect immediately, `IO` wraps the action in a nullary function ([thunk](#thunk)), allowing effectful operations to be transformed, chained, and composed as pure [values](#value) without actually executing them until explicitly triggered.
+
+```js
+const IO = (run) => ({
+  run,
+  map: (f) => IO(() => f(run())),
+  chain: (f) => IO(() => f(run()).run())
+})
+
+// Pure description - nothing executes yet
+const readTimestamp = IO(() => Date.now())
+const formatted = readTimestamp.map((ts) => new Date(ts).toISOString())
+
+// Side effect executes only when calling .run()
+formatted.run()
+```
+
+**Further reading**
+
+* [IO container](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html#pure-functional-magic) in Mostly Adequate Guide
+
+## Trampoline
+
+A mechanism that enables deep or mutually recursive functions to run without exceeding the maximum call stack limit.
+
+In environments without Tail Call Optimization (TCO), recursive calls return a function (a thunk) instead of invoking themselves directly. The trampoline runs a while-loop that unwinds each thunk until a final value is reached.
+
+```js
+const trampoline = (fn) => (...args) => {
+  let result = fn(...args)
+  while (typeof result === 'function') {
+    result = result()
+  }
+  return result
+}
+
+// Without trampoline: sumBelow(1000000) throws "Maximum call stack size exceeded"
+const sumBelow = (n, acc = 0) =>
+  n === 0
+    ? acc
+    : () => sumBelow(n - 1, acc + n) // returns a thunk instead of recursing directly
+
+const safeSum = trampoline(sumBelow)
+safeSum(1000000) // 500000500000
+```
+
+**Further reading**
+
+* [Trampolining in JavaScript](https://raganwald.com/2013/03/28/trampolines-in-javascript.html)
+
+## Thunk
+
+A nullary function (a function taking zero arguments) that wraps an expression to delay its evaluation until called. Thunks are the fundamental mechanism for implementing [lazy evaluation](#lazy-evaluation), [trampolines](#trampoline), and deferred side effects.
+
+```js
+// An eager calculation executes immediately:
+// const data = expensiveCalculation()
+
+// A thunk wraps the expression in a function, deferring execution:
+const thunk = () => 42 * 2
+
+// The expression is only evaluated when explicitly called:
+thunk() // 84
+```
+
+**Further reading**
+
+* [Thunk](https://en.wikipedia.org/wiki/Thunk) on Wikipedia
 
 ## Pure Function
 
@@ -571,6 +657,30 @@ In the example above, if you know that `chickenIntoDogs` and `grainIntoChicken`
 are [pure](#pure-function) then you know that the composition is pure. This can be taken further
 when more is known about the functions (associative, commutative, idempotent, etc...).
 
+## Memoization
+
+An optimization technique that caches the return value of a function based on its input parameters. Memoization is only valid and safe for [pure functions](#pure-function) possessing [referential transparency](#referential-transparency), because calling the function with identical arguments must always yield identical results without producing observable [side effects](#side-effects).
+
+```js
+const memoize = (fn) => {
+  const cache = new Map()
+  return (arg) => {
+    if (!cache.has(arg)) {
+      cache.set(arg, fn(arg))
+    }
+    return cache.get(arg)
+  }
+}
+
+const factorial = memoize((n) => (n <= 1 ? 1 : n * factorial(n - 1)))
+factorial(5) // Calculated: 120
+factorial(5) // Retrieved from cache: 120
+```
+
+**Further reading**
+
+* [Memoization](https://en.wikipedia.org/wiki/Memoization) on Wikipedia
+
 ## Lambda
 
 An anonymous function that can be treated like a value.
@@ -795,6 +905,88 @@ This gives you an array of functions that you can call `ap` on to get the result
 partiallyAppliedAdds.ap(arg2) // [5, 6, 7, 8]
 ```
 
+## Bifunctor
+
+A structure with two independent type parameters that can map over both of them simultaneously. A Bifunctor provides `bimap`, which takes two functions and maps the first over the first type parameter and the second over the second type parameter.
+
+```js
+const Pair = (first, second) => ({
+  first,
+  second,
+  bimap: (f, g) => Pair(f(first), g(second)),
+  firstMap: (f) => Pair(f(first), second),
+  secondMap: (g) => Pair(first, g(second))
+})
+
+const score = Pair('alice', 10)
+score.bimap((name) => name.toUpperCase(), (points) => points * 2)
+// Pair('ALICE', 20)
+```
+
+**Further reading**
+
+* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+
+## Contravariant Functor
+
+A structure similar to a [functor](#functor), but whose transformation flows in the opposite direction. While a covariant functor transforms a producer `F<A>` into `F<B>` via `(a -> b)`, a contravariant functor transforms a consumer `F<A>` into `F<B>` via `(b -> a)` using `cmap` (or `contramap`).
+
+Contravariant functors are commonly used to model predicates, validators, encoders, and sorting comparators by preprocessing inputs before feeding them to the consumer.
+
+```js
+// Predicate wraps a test function (x) -> Boolean
+const Predicate = (test) => ({
+  test,
+  // cmap :: (b -> a) -> Predicate a -> Predicate b
+  cmap: (f) => Predicate((x) => test(f(x)))
+})
+
+// An existing predicate checking if a string is long
+const isLongString = Predicate((s) => s.length > 5)
+
+// Contramap pre-processes a User object into a string (user.bio)
+const hasLongBio = isLongString.cmap((user) => user.bio)
+
+hasLongBio.test({ bio: 'Hello World' }) // true
+hasLongBio.test({ bio: 'Hi' }) // false
+```
+
+**Further reading**
+
+* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+
+## Alternative
+
+An [applicative functor](#applicative-functor) that also forms a [monoid](#monoid), providing a binary choice operator `alt` (often written `<|>`) and an identity element for failure recovery and fallback logic.
+
+When combining computations with `alt`, the structure typically represents "first success wins," falling back to subsequent alternatives if the previous computation failed or returned empty.
+
+```js
+const AltOption = {
+  Some: (x) => ({
+    alt: (_other) => AltOption.Some(x),
+    value: x
+  }),
+  None: () => ({
+    alt: (other) => other,
+    value: null
+  })
+}
+
+// Fallback configuration chain: first valid value wins
+const primaryConfig = AltOption.None()
+const secondaryConfig = AltOption.Some({ port: 8080 })
+const defaultConfig = AltOption.Some({ port: 3000 })
+
+const finalConfig = primaryConfig.alt(secondaryConfig).alt(defaultConfig)
+finalConfig.value // { port: 8080 }
+```
+
+**Further reading**
+
+* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+
 ## Morphism
 
 A relationship between objects within a [category](#category). In the context of functional programming all functions are morphisms.
@@ -929,6 +1121,29 @@ The third parameter in the reducer (in the above example, `[x, ... xs]`) is kind
 
 The opposite of paramorphism, just as anamorphism is the opposite of catamorphism. With paramorphism, you retain access to the accumulator and what has been accumulated, apomorphism lets you `unfold` with the potential to return early.
 
+## Natural Transformation
+
+A structure-preserving mapping between two [functors](#functor), transforming `F<A>` into `G<A>` without altering or inspecting the underlying value `A`.
+
+In functional programming, a natural transformation is a function that changes the container type while preserving the contents and obeying the naturality law: `nat(fa.map(f)) === nat(fa).map(f)`.
+
+```js
+// nat :: F a -> G a
+// e.g. Array to Option (taking the head element)
+const listToOption = (arr) => (arr.length > 0 ? { value: arr[0], isSome: true } : { value: null, isSome: false })
+
+const double = (x) => x * 2
+
+// Naturality law: transforming after map equals mapping after transform
+const arrayTransformed = listToOption([1, 2, 3].map(double)) // { value: 2, isSome: true }
+const mappedOption = { value: double(listToOption([1, 2, 3]).value), isSome: true } // { value: 2, isSome: true }
+arrayTransformed.value === mappedOption.value // true
+```
+
+**Further reading**
+
+* [Natural transformation](https://en.wikipedia.org/wiki/Natural_transformation) on Wikipedia
+
 ## Setoid
 
 An object that has an `equals` function which can be used to compare other objects of the same type.
@@ -969,6 +1184,32 @@ An object that has a `reduce` function that applies a function against an accumu
 const sum = (list) => list.reduce((acc, val) => acc + val, 0)
 sum([1, 2, 3]) // 6
 ```
+
+## Traversable
+
+A [Foldable](#foldable) and [Functor](#functor) that can turn a collection of wrapped values inside-out via `sequence` or `traverse`, transforming `F<G<A>>` into `G<F<A>>`.
+
+This is commonly used to take a list of asynchronous operations or nullable values and pull the wrapper effect to the outside.
+
+```js
+// sequence transforms a list of Promises into a Promise of a list
+// [Promise<1>, Promise<2>] -> Promise<[1, 2]>
+const promiseSequence = (promises) =>
+  promises.reduce(
+    (acc, p) => acc.then((arr) => p.then((val) => [...arr, val])),
+    Promise.resolve([])
+  )
+
+promiseSequence([
+  Promise.resolve(1),
+  Promise.resolve(2),
+  Promise.resolve(3)
+]).then(console.log) // [1, 2, 3]
+```
+
+**Further reading**
+
+* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Lens
 
@@ -1022,6 +1263,60 @@ Other implementations:
 * [partial.lenses](https://github.com/calmm-js/partial.lenses) ⭐ 923 | 🐛 23 | 🌐 JavaScript | 📅 2021-11-18 - Tasty syntax sugar and a lot of powerful features
 * [nanoscope](http://www.kovach.me/nanoscope/) - Fluent-interface
 
+## Prism
+
+An optic that focuses on a sub-case or variant of a [sum type](#sum-type). Unlike a [Lens](#lens), which always assumes the target field exists on a product structure, a Prism may fail to match because the target variant might not be present.
+
+A Prism consists of a `preview` function (which returns an [Option](#option) or null) and a `review` function (which reconstructs the whole data structure from the focused part).
+
+```js
+const Prism = (preview, review) => ({
+  preview,
+  review
+})
+
+// A prism focusing on numeric string values
+const integerPrism = Prism(
+  (str) => (/^-?\d+$/.test(str) ? Number(str) : null),
+  (num) => String(num)
+)
+
+integerPrism.preview('42') // 42
+integerPrism.preview('hello') // null
+integerPrism.review(42) // '42'
+```
+
+**Further reading**
+
+* [Optics / Prism](https://github.com/flunc/optics) ⭐ 87 | 🐛 1 | 🌐 JavaScript | 📅 2016-05-05 on GitHub
+
+## Iso
+
+An optic that defines a lossless, reversible two-way mapping between two representations of the same information (`s` and `a`). An Iso consists of a `to` function (`s -> a`) and a `from` function (`a -> s`) such that `from(to(x)) === x` and `to(from(y)) === y`.
+
+Isos form the foundation of reversible transformations like temperature conversions, coordinate systems, or encoding/decoding data structures.
+
+```js
+const Iso = (to, from) => ({
+  to,
+  from
+})
+
+// Conversion between Celsius and Fahrenheit
+const tempIso = Iso(
+  (c) => (c * 9) / 5 + 32, // to Fahrenheit
+  (f) => ((f - 32) * 5) / 9 // from Fahrenheit
+)
+
+tempIso.to(100) // 212
+tempIso.from(212) // 100
+```
+
+**Further reading**
+
+* [Optics / Iso](https://github.com/flunc/optics) ⭐ 87 | 🐛 1 | 🌐 JavaScript | 📅 2016-05-05 on GitHub
+* [Isomorphism](https://en.wikipedia.org/wiki/Isomorphism) on Wikipedia
+
 ## Type Signatures
 
 Often functions in JavaScript will include comments that indicate the types of their arguments and return values.
@@ -1054,7 +1349,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,051 | 🐛 147 | 🌐 JavaScript | 📅 2026-07-26
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,048 | 🐛 147 | 🌐 JavaScript | 📅 2026-07-26
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1150,6 +1445,47 @@ getNestedPrice({ item: { price: 9.99 } }) // Some(9.99)
 
 `Option` is also known as `Maybe`. `Some` is sometimes called `Just`. `None` is sometimes called `Nothing`.
 
+## Either
+
+A [sum type](#sum-type) with two cases, `Left` and `Right`. By convention, `Right` represents a successful computation and `Left` contains an error or failure reason ("right is right").
+
+`Either` is useful for error handling without exceptions, allowing computations to fail gracefully while remaining [pure](#pure-function) and composable.
+
+```js
+const Left = (x) => ({
+  value: x,
+  map: (_f) => Left(x),
+  chain: (_f) => Left(x),
+  fold: (f, _g) => f(x),
+  isLeft: true
+})
+
+const Right = (x) => ({
+  value: x,
+  map: (f) => Right(f(x)),
+  chain: (f) => f(x),
+  fold: (_f, g) => g(x),
+  isRight: true
+})
+
+// parseJson :: String -> Either String Object
+const parseJson = (str) => {
+  try {
+    return Right(JSON.parse(str))
+  } catch (err) {
+    return Left(err.message)
+  }
+}
+
+parseJson('{"user": "hemanth"}').map((obj) => obj.user) // Right('hemanth')
+parseJson('invalid json').map((obj) => obj.user) // Left('Unexpected token...')
+```
+
+**Further reading**
+
+* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Folktale Result](https://folktale.origamitower.com/api/v2.3.0/en/folktale.result.html)
+
 ## Function
 
 A **function** `f :: A => B` is an expression - often called arrow or lambda expression - with **exactly one (immutable)** parameter of type `A` and **exactly one** return value of type `B`. That value depends entirely on the argument, making functions context-independent, or [referentially transparent](#referential-transparency). What is implied here is that a function must not produce any hidden [side effects](#side-effects) - a function is always [pure](#pure-function), by definition. These properties make functions pleasant to work with: they are entirely deterministic and therefore predictable. Functions enable working with code as data, abstracting over behaviour:
@@ -1238,12 +1574,12 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,280 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,279 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,031 | 🐛 138 | 🌐 TypeScript | 📅 2026-09-10
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,982 | 🐛 50 | 🌐 JavaScript | 📅 2026-09-11
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,323 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,051 | 🐛 147 | 🌐 JavaScript | 📅 2026-07-26
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,545 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,981 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-12
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,322 | 🐛 52 | 🌐 JavaScript | 📅 2026-08-12
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,048 | 🐛 147 | 🌐 JavaScript | 📅 2026-07-26
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,547 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,965 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,050 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
@@ -1258,7 +1594,7 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,648 | 🐛 27 | 📅 2023-10-17!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,649 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-12!
 
 ***
 

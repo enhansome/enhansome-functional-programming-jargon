@@ -309,6 +309,160 @@
       "title": "Overview"
     },
     {
+      "description": "A structure with two independent type parameters that can map over both of them simultaneously. A Bifunctor provides , which takes two functions and maps the first over the first type parameter and the second over the second type parameter.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Bifunctor",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Bifunctor"
+    },
+    {
+      "description": "A structure similar to a functor, but whose transformation flows in the opposite direction. While a covariant functor transforms a producer into via , a contravariant functor transforms a consumer into via using (or ).\nContravariant functors are commonly used to model predicates, validators, encoders, and sorting comparators by preprocessing inputs before feeding them to the consumer.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Contravariant Functor",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Contravariant Functor"
+    },
+    {
+      "description": "An applicative functor that also forms a monoid, providing a binary choice operator (often written ) and an identity element for failure recovery and fallback logic.\nWhen combining computations with , the structure typically represents \"first success wins,\" falling back to subsequent alternatives if the previous computation failed or returned empty.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Alt",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Alternative",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Alternative"
+    },
+    {
+      "description": "A Foldable and Functor that can turn a collection of wrapped values inside-out via or , transforming into .\nThis is commonly used to take a list of asynchronous operations or nullable values and pull the wrapper effect to the outside.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Traversable",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Traversable"
+    },
+    {
       "description": "A lens is a structure (often an object or function) that pairs a getter and a non-mutating setter for some other data structure.\nHaving the pair of get and set for a given data structure enables a few key features.\nLenses are also composable. This allows easy immutable updates to deeply nested data.\nOther implementations:",
       "items": [
         {
@@ -347,6 +501,60 @@
       "title": "Lens"
     },
     {
+      "description": "An optic that focuses on a sub-case or variant of a sum type. Unlike a Lens, which always assumes the target field exists on a product structure, a Prism may fail to match because the target variant might not be present.\nA Prism consists of a function (which returns an Option or null) and a function (which reconstructs the whole data structure from the focused part).\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Optics / Prism",
+          "description": "on GitHub",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Profunctor implementation of Lenses, Prisms, Traversals, Isos, etc.",
+            "homepage": null,
+            "id": 51406335,
+            "language": "JavaScript",
+            "license": null,
+            "last_commit": "2016-05-05T00:02:32Z",
+            "open_issues": 1,
+            "owner": "flunc",
+            "repo": "optics",
+            "stars": 87,
+            "topics": []
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Prism"
+    },
+    {
+      "description": "An optic that defines a lossless, reversible two-way mapping between two representations of the same information ( and ). An Iso consists of a function () and a function () such that and .\nIsos form the foundation of reversible transformations like temperature conversions, coordinate systems, or encoding/decoding data structures.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Optics / Iso",
+          "description": "on GitHub",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Profunctor implementation of Lenses, Prisms, Traversals, Isos, etc.",
+            "homepage": null,
+            "id": 51406335,
+            "language": "JavaScript",
+            "license": null,
+            "last_commit": "2016-05-05T00:02:32Z",
+            "open_issues": 1,
+            "owner": "flunc",
+            "repo": "optics",
+            "stars": 87,
+            "topics": []
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Iso"
+    },
+    {
       "description": "Often functions in JavaScript will include comments that indicate the types of their arguments and return values.\nThere's quite a bit of variance across the community, but they often follow the following patterns:\nIf a function accepts another function as an argument it is wrapped in parentheses.\nThe letters , , , are used to signify that the argument can be of any type. The following version of takes a function that transforms a value of some type into another type , an array of values of type , and returns an array of values of type .\nFurther reading",
       "items": [
         {
@@ -365,7 +573,7 @@
             "open_issues": 147,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24051,
+            "stars": 24048,
             "topics": [
               "javascript",
               "ramda"
@@ -375,6 +583,38 @@
         }
       ],
       "title": "Type Signatures"
+    },
+    {
+      "description": "A sum type with two cases, and . By convention, represents a successful computation and contains an error or failure reason (\"right is right\").\nis useful for error handling without exceptions, allowing computations to fail gracefully while remaining pure and composable.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Either",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Either"
     },
     {
       "description": "P.S: This repo is successful due to the wonderful contributions!",
@@ -395,7 +635,7 @@
             "open_issues": 105,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61280,
+            "stars": 61279,
             "topics": [
               "javascript",
               "lodash",
@@ -438,11 +678,11 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-09-11T01:48:23Z",
-            "open_issues": 50,
+            "last_commit": "2026-09-12T07:20:02Z",
+            "open_issues": 51,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28982,
+            "stars": 28981,
             "topics": [
               "immutable",
               "immutables",
@@ -469,7 +709,7 @@
             "open_issues": 52,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27323,
+            "stars": 27322,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -490,7 +730,7 @@
             "open_issues": 147,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24051,
+            "stars": 24048,
             "topics": [
               "javascript",
               "ramda"
@@ -514,7 +754,7 @@
             "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11545,
+            "stars": 11547,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -773,19 +1013,19 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T00:07:06.145Z",
+    "last_updated": "2026-09-12T23:55:19.413Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
-      "homepage": "http://git.io/fp-jargons",
+      "homepage": "http://hemanth.github.io/functional-programming-jargon/",
       "id": 31168578,
-      "language": null,
+      "language": "JavaScript",
       "license": "MIT",
-      "last_commit": "2023-10-17T12:04:55Z",
+      "last_commit": "2026-09-12T20:36:33Z",
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18648,
+      "stars": 18649,
       "topics": [
         "awesome-list",
         "education",
@@ -795,7 +1035,7 @@
         "javascript"
       ]
     },
-    "original_repository_sha": "08a48ffcdd798d5d5071935d57dbc7c5cbd6fc5b",
+    "original_repository_sha": "f92248e14ded2f5c6974649a9e63eb88d70f868f",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
     "enhanced_repository_description": null,
     "title": "Awesome Functional Programming Jargon with stars"
