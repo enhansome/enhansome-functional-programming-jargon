@@ -481,7 +481,7 @@
             "open_issues": 23,
             "owner": "calmm-js",
             "repo": "partial.lenses",
-            "stars": 923,
+            "stars": 924,
             "topics": [
               "counterculture",
               "fold",
@@ -570,7 +570,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-07-26T15:18:52Z",
-            "open_issues": 147,
+            "open_issues": 148,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24048,
@@ -682,7 +682,7 @@
             "open_issues": 51,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28981,
+            "stars": 28980,
             "topics": [
               "immutable",
               "immutables",
@@ -706,10 +706,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-08-12T13:38:20Z",
-            "open_issues": 52,
+            "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27322,
+            "stars": 27320,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -727,7 +727,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-07-26T15:18:52Z",
-            "open_issues": 147,
+            "open_issues": 148,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24048,
@@ -754,7 +754,7 @@
             "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11547,
+            "stars": 11548,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -1013,7 +1013,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T23:55:19.413Z",
+    "last_updated": "2026-09-14T00:03:58.896Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1025,7 +1025,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18649,
+      "stars": 18648,
       "topics": [
         "awesome-list",
         "education",
