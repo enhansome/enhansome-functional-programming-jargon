@@ -2,7 +2,7 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,648 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-12
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,648 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
@@ -40,6 +40,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [IO](#io)
 * [Trampoline](#trampoline)
 * [Thunk](#thunk)
+* [Algebraic Effects](#algebraic-effects)
 * [Pure Function](#pure-function)
 * [Side effects](#side-effects)
 * [Idempotence](#idempotence)
@@ -47,6 +48,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Predicate](#predicate)
 * [Contracts](#contracts)
 * [Category](#category)
+* [Semigroupoid](#semigroupoid)
 * [Value](#value)
 * [Constant](#constant)
   * [Constant Function](#constant-function)
@@ -66,9 +68,12 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Monad](#monad)
 * [Comonad](#comonad)
 * [Kleisli Composition](#kleisli-composition)
+* [Free Monad](#free-monad)
+* [Monad Transformer](#monad-transformer)
 * [Applicative Functor](#applicative-functor)
 * [Bifunctor](#bifunctor)
 * [Contravariant Functor](#contravariant-functor)
+* [Profunctor](#profunctor)
 * [Alternative](#alternative)
 * [Morphism](#morphism)
   * [Homomorphism](#homomorphism)
@@ -87,6 +92,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Lens](#lens)
 * [Prism](#prism)
 * [Iso](#iso)
+* [Traversal](#traversal)
 * [Type Signatures](#type-signatures)
 * [Algebraic data type](#algebraic-data-type)
   * [Sum type](#sum-type)
@@ -333,6 +339,56 @@ thunk() // 84
 
 * [Thunk](https://en.wikipedia.org/wiki/Thunk) on Wikipedia
 
+## Algebraic Effects
+
+A computational effect system that separates the invocation of an effect from its handling. Rather than coupling a function directly to its runtime environment, the function "performs" an effect operation (such as reading state, requesting configuration, or logging). An enclosing "handler" intercepts the performed effect and supplies the result, with the ability to resume or abort the computation—generalizing exceptions, async/await, and generators without requiring complex monad transformer stacks.
+
+```js
+// Generators model delimited continuations / algebraic effects:
+const perform = (effect) => ({ [Symbol.for('effect')]: true, effect })
+
+// Program performs effects without knowing who handles them:
+function * fetchUserProfile (userId) {
+  const config = yield perform({ type: 'ask_config' })
+  yield perform({ type: 'log', message: `Fetching user ${userId} from ${config.apiUrl}` })
+  return { id: userId, name: 'Alice' }
+}
+
+// Effect handler interprets effects and resumes the computation:
+const handle = (generator, handlers) => {
+  const iter = generator()
+  const step = (value) => {
+    const { done, value: yielded } = iter.next(value)
+    if (done) return yielded
+    if (yielded && yielded[Symbol.for('effect')]) {
+      const { type } = yielded.effect
+      if (handlers[type]) {
+        return handlers[type](yielded.effect, (resumeVal) => step(resumeVal))
+      }
+    }
+    return step(yielded)
+  }
+  return step()
+}
+
+// Running with an interpreter / handler:
+handle(
+  () => fetchUserProfile(42),
+  {
+    ask_config: (effect, resume) => resume({ apiUrl: 'https://api.test.local' }),
+    log: (effect, resume) => {
+      console.log(effect.message)
+      return resume()
+    }
+  }
+)
+```
+
+**Further reading**
+
+* [Algebraic Effects for the Rest of Us](https://overreacted.io/algebraic-effects-for-the-rest-of-us/)
+* [What is Algebraic Effects?](https://koka-lang.github.io/koka/doc/book.html#why-effects)
+
 ## Pure Function
 
 A function is pure if the return value is only determined by its input values, and does not produce side effects. The function must always return the same result when given the same input.
@@ -486,6 +542,32 @@ new Max(2).compose(new Max(3)).compose(new Max(5)).id().id() // => Max(5)
 **Further reading**
 
 * [Category Theory for Programmers](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/)
+
+## Semigroupoid
+
+An algebraic structure with objects and morphisms that can be associatively composed, but does not guarantee the existence of an identity morphism for each object.
+
+A semigroupoid satisfies the associativity property for [composition](#function-composition):
+`f.compose(g).compose(h) === f.compose(g.compose(h))`
+
+Every [category](#category) is a semigroupoid, but a semigroupoid does not require an identity (`id`) morphism. Functions under composition form a natural semigroupoid:
+
+```js
+const Semigroupoid = (fn) => ({
+  run: fn,
+  compose: (other) => Semigroupoid((x) => fn(other.run(x)))
+})
+
+const toUpper = Semigroupoid((s) => s.toUpperCase())
+const exclaim = Semigroupoid((s) => `${s}!`)
+
+const loudGreeting = exclaim.compose(toUpper)
+loudGreeting.run('hello') // 'HELLO!'
+```
+
+**Further reading**
+
+* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Value
 
@@ -872,6 +954,117 @@ This works because:
 * both `validatePositive` and `safeParseNum` return the same kind of monad (Option),
 * the type of `validatePositive`'s argument matches `safeParseNum`'s unwrapped return.
 
+## Free Monad
+
+A Free Monad is a construction that builds a [monad](#monad) out of any [functor](#functor) without adding any domain-specific behavior. It cleanly separates the description of a program (an Abstract Syntax Tree of commands) from its execution (an interpreter that evaluates the AST).
+
+A Free Monad has two cases:
+
+* `Pure`: wraps a final value and terminates computation.
+* `Free`: wraps a functor containing the next step of the computation.
+
+```js
+// Free monad constructors:
+const Pure = (x) => ({
+  isPure: true,
+  value: x,
+  map: (f) => Pure(f(x)),
+  chain: (f) => f(x)
+})
+
+const Free = (fn) => ({
+  isPure: false,
+  functor: fn,
+  map: (f) => Free(fn.map((next) => next.map(f))),
+  chain: (f) => Free(fn.map((next) => next.chain(f)))
+})
+
+// Lift an instruction functor into a Free monad:
+const liftF = (cmd) => Free(cmd.map(Pure))
+
+// Functor representing logging instructions:
+const Log = (msg, next) => ({
+  type: 'log',
+  msg,
+  next,
+  map: (f) => Log(msg, f(next))
+})
+
+// Program: purely describes actions without executing them:
+const logMsg = (msg) => liftF(Log(msg, null))
+const program = logMsg('Starting').chain(() => logMsg('Done')).chain(() => Pure(42))
+
+// Interpreter: executes the instruction tree:
+const interpret = (freeMonad) => {
+  if (freeMonad.isPure) return freeMonad.value
+  const { type, msg, next } = freeMonad.functor
+  if (type === 'log') {
+    console.log(msg)
+    return interpret(next)
+  }
+}
+
+interpret(program) // Logs 'Starting', 'Done', returns 42
+```
+
+**Further reading**
+
+* [Free Monads in JavaScript](https://medium.com/@gcanti/free-monads-in-javascript-f5df234d3d2a)
+
+## Monad Transformer
+
+While [functors](#functor) and [applicative functors](#applicative-functor) compose naturally, [monads](#monad) do not compose generally without knowing their specific types. A Monad Transformer is a type constructor that takes an existing monad and produces a new monad with combined capabilities (such as combining error handling, asynchronous tasks, and state).
+
+Monad transformers typically end in `T` (e.g. `MaybeT`, `ReaderT`, `StateT`).
+
+```js
+// MaybeT wraps any outer monad M to add optionality:
+const MaybeT = (M) => {
+  const of = (value) => MaybeTInstance(M.of({ isSome: true, value }))
+  const none = () => MaybeTInstance(M.of({ isSome: false }))
+
+  const MaybeTInstance = (run) => ({
+    run,
+    chain: (f) =>
+      MaybeTInstance(
+        run.chain((opt) => (opt.isSome ? f(opt.value).run : M.of(opt)))
+      ),
+    map: (f) =>
+      MaybeTInstance(
+        run.map((opt) => (opt.isSome ? { isSome: true, value: f(opt.value) } : opt))
+      )
+  })
+
+  return { of, none, from: MaybeTInstance }
+}
+
+// Identity monad:
+const Id = (x) => ({
+  value: x,
+  map: (f) => Id(f(x)),
+  chain: (f) => f(x)
+})
+Id.of = Id
+
+// Combine Id monad with Maybe effect:
+const MaybeId = MaybeT(Id)
+
+const findUser = (id) =>
+  id === 1 ? MaybeId.of({ name: 'Alice', age: 30 }) : MaybeId.none()
+
+const getAge = (id) =>
+  findUser(id)
+    .chain((user) => MaybeId.of(user.age))
+    .run
+
+getAge(1).value // { isSome: true, value: 30 }
+getAge(2).value // { isSome: false }
+```
+
+**Further reading**
+
+* [Monad Transformers Step by Step](https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/monad-transformers-step-by-step.pdf)
+
 ## Applicative Functor
 
 An applicative functor is an object with an `ap` function. `ap` applies a function in the object to a value in another object of the same type.
@@ -954,6 +1147,39 @@ hasLongBio.test({ bio: 'Hi' }) // false
 **Further reading**
 
 * [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+
+## Profunctor
+
+A Profunctor is a [bifunctor](#bifunctor) that is **contravariant** in its first argument and **covariant** in its second argument.
+
+Given a structure `P<A, B>` representing a computation that consumes `A` and produces `B`, `promap` takes two functions `(a' -> a)` and `(b -> b')` to yield `P<A', B'>`.
+
+Functions `(a -> b)` are canonical profunctors: you can pre-process the input `(a' -> a)` and post-process the output `(b -> b')`. Profunctors form the mathematical foundation of profunctor optics.
+
+```js
+// Functions are natural profunctors:
+const Profunctor = (fn) => ({
+  run: fn,
+  // promap :: (a' -> a) -> (b -> b') -> P a b -> P a' b'
+  promap: (f, g) => Profunctor((x) => g(fn(f(x))))
+})
+
+// An existing function: String -> Number
+const stringLength = Profunctor((str) => str.length)
+
+// Pre-process input (trim whitespace) and post-process output (check if even):
+const isTrimmedLengthEven = stringLength.promap(
+  (raw) => raw.trim(), // contravariant: pre-process input
+  (len) => len % 2 === 0 // covariant: post-process output
+)
+
+isTrimmedLengthEven.run('   code   ') // 4 is even -> true
+isTrimmedLengthEven.run(' hello ') // 5 is odd -> false
+```
+
+**Further reading**
+
+* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Alternative
 
@@ -1317,6 +1543,39 @@ tempIso.from(212) // 100
 * [Optics / Iso](https://github.com/flunc/optics) ⭐ 87 | 🐛 1 | 🌐 JavaScript | 📅 2016-05-05 on GitHub
 * [Isomorphism](https://en.wikipedia.org/wiki/Isomorphism) on Wikipedia
 
+## Traversal
+
+An optic that focuses on zero, one, or multiple values (`0..*`) inside a data structure simultaneously.
+
+While a [Lens](#lens) focuses on exactly 1 value and a [Prism](#prism) focuses on 0 or 1 value, a Traversal generalizes optics to collections, trees, or filtered subsets.
+
+A traversal provides:
+
+* `getAll`: extracts all focused values into an array.
+* `modify`: immutably transforms every focused value using a mapping function.
+
+```js
+const Traversal = (getAll, modify) => ({
+  getAll,
+  modify
+})
+
+// Traversal focusing only on even numbers in an array:
+const evenTraversal = Traversal(
+  (arr) => arr.filter((n) => n % 2 === 0),
+  (f, arr) => arr.map((n) => (n % 2 === 0 ? f(n) : n))
+)
+
+const numbers = [1, 2, 3, 4, 5, 6]
+
+evenTraversal.getAll(numbers) // [2, 4, 6]
+evenTraversal.modify((n) => n * 10, numbers) // [1, 20, 3, 40, 5, 60]
+```
+
+**Further reading**
+
+* [Optics - Traversals](https://github.com/calmm-js/partial.lenses#traversal) ⭐ 924 | 🐛 23 | 🌐 JavaScript | 📅 2021-11-18
+
 ## Type Signatures
 
 Often functions in JavaScript will include comments that indicate the types of their arguments and return values.
@@ -1349,7 +1608,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,048 | 🐛 148 | 🌐 JavaScript | 📅 2026-07-26
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,048 | 🐛 147 | 🌐 JavaScript | 📅 2026-09-14
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1575,17 +1834,17 @@ A function which returns a valid result for all inputs defined in its type. This
 ## Functional Programming Libraries in JavaScript
 
 * [lodash](https://github.com/lodash/lodash) ⭐ 61,279 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,031 | 🐛 138 | 🌐 TypeScript | 📅 2026-09-10
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 138 | 🌐 TypeScript | 📅 2026-09-10
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-12
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-08-12
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,048 | 🐛 148 | 🌐 JavaScript | 📅 2026-07-26
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,319 | 🐛 53 | 🌐 JavaScript | 📅 2026-08-12
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,048 | 🐛 147 | 🌐 JavaScript | 📅 2026-09-14
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,965 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,050 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,596 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
-* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 70 | 🌐 JavaScript | 📅 2026-09-11
+* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 73 | 🌐 JavaScript | 📅 2026-09-15
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
 * [maryamyriameliamurphies.js](https://github.com/sjsyrek/maryamyriameliamurphies.js) ⭐ 182 | 🐛 19 | 🌐 JavaScript | 📅 2017-05-27
 * [ramda-extension](https://github.com/tommmyy/ramda-extension) ⭐ 167 | 🐛 33 | 🌐 HTML | 📅 2025-04-01
@@ -1594,8 +1853,8 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,648 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-12!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,648 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14!
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-15._

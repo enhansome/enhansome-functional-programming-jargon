@@ -309,6 +309,38 @@
       "title": "Overview"
     },
     {
+      "description": "An algebraic structure with objects and morphisms that can be associatively composed, but does not guarantee the existence of an identity morphism for each object.\nA semigroupoid satisfies the associativity property for composition:\nEvery category is a semigroupoid, but a semigroupoid does not require an identity () morphism. Functions under composition form a natural semigroupoid:\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Semigroupoid",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Semigroupoid"
+    },
+    {
       "description": "A structure with two independent type parameters that can map over both of them simultaneously. A Bifunctor provides , which takes two functions and maps the first over the first type parameter and the second over the second type parameter.\nFurther reading",
       "items": [
         {
@@ -371,6 +403,38 @@
         }
       ],
       "title": "Contravariant Functor"
+    },
+    {
+      "description": "A Profunctor is a bifunctor that is contravariant in its first argument and covariant in its second argument.\nGiven a structure representing a computation that consumes and produces , takes two functions and to yield .\nFunctions are canonical profunctors: you can pre-process the input and post-process the output . Profunctors form the mathematical foundation of profunctor optics.\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Profunctor",
+          "description": "in Fantasy Land",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Specification for interoperability of common algebraic structures in JavaScript",
+            "homepage": null,
+            "id": 9385519,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2024-11-10T21:50:53Z",
+            "open_issues": 36,
+            "owner": "fantasyland",
+            "repo": "fantasy-land",
+            "stars": 10236,
+            "topics": [
+              "fantasy-land",
+              "functional",
+              "javascript",
+              "specification"
+            ]
+          },
+          "first_seen": "2026-09-12T23:55:19.413Z"
+        }
+      ],
+      "title": "Profunctor"
     },
     {
       "description": "An applicative functor that also forms a monoid, providing a binary choice operator (often written ) and an identity element for failure recovery and fallback logic.\nWhen combining computations with , the structure typically represents \"first success wins,\" falling back to subsequent alternatives if the previous computation failed or returned empty.\nFurther reading",
@@ -555,6 +619,44 @@
       "title": "Iso"
     },
     {
+      "description": "An optic that focuses on zero, one, or multiple values () inside a data structure simultaneously.\nWhile a Lens focuses on exactly 1 value and a Prism focuses on 0 or 1 value, a Traversal generalizes optics to collections, trees, or filtered subsets.\nA traversal provides:\nFurther reading",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Optics - Traversals",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Partial lenses is a comprehensive, high-performance optics library for JavaScript",
+            "homepage": null,
+            "id": 50582234,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2021-11-18T13:19:33Z",
+            "open_issues": 23,
+            "owner": "calmm-js",
+            "repo": "partial.lenses",
+            "stars": 924,
+            "topics": [
+              "counterculture",
+              "fold",
+              "functional",
+              "immutable",
+              "isomorphism",
+              "json",
+              "lens",
+              "optics",
+              "partial-lenses",
+              "traversal"
+            ]
+          },
+          "first_seen": "2026-08-28T06:04:02.815Z"
+        }
+      ],
+      "title": "Traversal"
+    },
+    {
       "description": "Often functions in JavaScript will include comments that indicate the types of their arguments and return values.\nThere's quite a bit of variance across the community, but they often follow the following patterns:\nIf a function accepts another function as an argument it is wrapped in parentheses.\nThe letters , , , are used to signify that the argument can be of any type. The following version of takes a function that transforms a value of some type into another type , an array of values of type , and returns an array of values of type .\nFurther reading",
       "items": [
         {
@@ -569,8 +671,8 @@
             "id": 10851820,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-07-26T15:18:52Z",
-            "open_issues": 148,
+            "last_commit": "2026-09-14T05:40:39Z",
+            "open_issues": 147,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24048,
@@ -661,7 +763,7 @@
             "open_issues": 138,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33031,
+            "stars": 33030,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -709,7 +811,7 @@
             "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27320,
+            "stars": 27319,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -726,8 +828,8 @@
             "id": 10851820,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-07-26T15:18:52Z",
-            "open_issues": 148,
+            "last_commit": "2026-09-14T05:40:39Z",
+            "open_issues": 147,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24048,
@@ -906,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-09-11T00:07:55Z",
-            "open_issues": 70,
+            "last_commit": "2026-09-15T00:01:51Z",
+            "open_issues": 73,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -1013,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-14T00:03:58.896Z",
+    "last_updated": "2026-09-15T00:28:21.384Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1021,7 +1123,7 @@
       "id": 31168578,
       "language": "JavaScript",
       "license": "MIT",
-      "last_commit": "2026-09-12T20:36:33Z",
+      "last_commit": "2026-09-14T14:58:00Z",
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
@@ -1035,7 +1137,7 @@
         "javascript"
       ]
     },
-    "original_repository_sha": "f92248e14ded2f5c6974649a9e63eb88d70f868f",
+    "original_repository_sha": "62a3a2e3f149ba0ac73016f387e7421023a3ff43",
     "enhanced_repository": "enhansome/enhansome-functional-programming-jargon",
     "enhanced_repository_description": null,
     "title": "Awesome Functional Programming Jargon with stars"
