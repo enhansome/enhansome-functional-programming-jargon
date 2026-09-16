@@ -2,7 +2,7 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,648 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,663 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,236 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
@@ -16,12 +16,12 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
 * [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional) ⭐ 161 | 🐛 2 | 📅 2019-12-23
-* [Korean](https://github.com/sphilee/functional-programming-jargon) ⭐ 107 | 🐛 0 | 📅 2017-12-27
+* [Korean](https://github.com/sphilee/functional-programming-jargon) ⭐ 106 | 🐛 0 | 📅 2017-12-27
 * [Julia World](https://github.com/Moelf/functional-programming-jargon.jl) ⭐ 92 | 🐛 0 | 📅 2022-12-16
 * [Bahasa Indonesia](https://github.com/wisn/jargon-pemrograman-fungsional) ⭐ 74 | 🐛 0 | 📅 2017-06-23
 * [Spanish](https://github.com/idcmardelplata/functional-programming-jargon/tree/master) ⭐ 63 | 🐛 0 | 📅 2017-04-13
 * [Haskell Turkish](https://github.com/mrtkp9993/functional-programming-jargon) ⭐ 29 | 🐛 0 | 🌐 Haskell | 📅 2022-08-03
-* [French](https://github.com/marcwrobel/functional-programming-jargon-fr) ⭐ 17 | 🐛 0 | 📅 2024-01-17
+* [French](https://github.com/marcwrobel/functional-programming-jargon-fr) ⭐ 18 | 🐛 0 | 📅 2024-01-17
 * [Polish](https://github.com/Deloryn/functional-programming-jargon) ⭐ 13 | 🐛 0 | 📅 2019-02-12
 * [Haskell Russian](https://github.com/epogrebnyak/functional-programming-jargon) ⭐ 10 | 🐛 6 | 🌐 Python | 📅 2020-01-15
 
@@ -1608,7 +1608,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,048 | 🐛 147 | 🌐 JavaScript | 📅 2026-09-14
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,048 | 🐛 142 | 🌐 JavaScript | 📅 2026-09-15
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1834,10 +1834,10 @@ A function which returns a valid result for all inputs defined in its type. This
 ## Functional Programming Libraries in JavaScript
 
 * [lodash](https://github.com/lodash/lodash) ⭐ 61,279 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 138 | 🌐 TypeScript | 📅 2026-09-10
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,029 | 🐛 138 | 🌐 TypeScript | 📅 2026-09-10
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,980 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-12
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,319 | 🐛 53 | 🌐 JavaScript | 📅 2026-08-12
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,048 | 🐛 147 | 🌐 JavaScript | 📅 2026-09-14
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-15
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,048 | 🐛 142 | 🌐 JavaScript | 📅 2026-09-15
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,965 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
@@ -1853,8 +1853,8 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,648 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,663 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14!
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-15._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-16._
