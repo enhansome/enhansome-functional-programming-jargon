@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1428,
+            "stars": 1429,
             "topics": [
               "applicative",
               "category-theory",
@@ -675,7 +675,7 @@
             "open_issues": 142,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24048,
+            "stars": 24049,
             "topics": [
               "javascript",
               "ramda"
@@ -737,7 +737,7 @@
             "open_issues": 105,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61279,
+            "stars": 61278,
             "topics": [
               "javascript",
               "lodash",
@@ -784,7 +784,7 @@
             "open_issues": 51,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980,
+            "stars": 28979,
             "topics": [
               "immutable",
               "immutables",
@@ -832,7 +832,7 @@
             "open_issues": 142,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24048,
+            "stars": 24049,
             "topics": [
               "javascript",
               "ramda"
@@ -856,7 +856,7 @@
             "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11548,
+            "stars": 11549,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-16T00:08:18.001Z",
+    "last_updated": "2026-09-17T00:18:19.159Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18663,
+      "stars": 18684,
       "topics": [
         "awesome-list",
         "education",
