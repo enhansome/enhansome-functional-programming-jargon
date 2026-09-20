@@ -675,7 +675,7 @@
             "open_issues": 143,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24050,
+            "stars": 24051,
             "topics": [
               "javascript",
               "ramda"
@@ -737,7 +737,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61273,
+            "stars": 61272,
             "topics": [
               "javascript",
               "lodash",
@@ -832,7 +832,7 @@
             "open_issues": 143,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24050,
+            "stars": 24051,
             "topics": [
               "javascript",
               "ramda"
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-19T00:09:12.545Z",
+    "last_updated": "2026-09-20T00:03:32.130Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18698,
+      "stars": 18702,
       "topics": [
         "awesome-list",
         "education",
