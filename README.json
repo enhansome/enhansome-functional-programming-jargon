@@ -675,7 +675,7 @@
             "open_issues": 144,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24051,
+            "stars": 24050,
             "topics": [
               "javascript",
               "ramda"
@@ -737,7 +737,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61271,
+            "stars": 61272,
             "topics": [
               "javascript",
               "lodash",
@@ -763,7 +763,7 @@
             "open_issues": 138,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33030,
+            "stars": 33031,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -784,7 +784,7 @@
             "open_issues": 53,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28980,
+            "stars": 28981,
             "topics": [
               "immutable",
               "immutables",
@@ -808,10 +808,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-09-15T12:59:19Z",
-            "open_issues": 54,
+            "open_issues": 55,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27318,
+            "stars": 27319,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -832,7 +832,7 @@
             "open_issues": 144,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24051,
+            "stars": 24050,
             "topics": [
               "javascript",
               "ramda"
@@ -853,7 +853,7 @@
             "language": "TypeScript",
             "license": "MIT",
             "last_commit": "2026-04-20T19:55:05Z",
-            "open_issues": 191,
+            "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
             "stars": 11551,
@@ -1008,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-09-17T23:57:21Z",
-            "open_issues": 73,
+            "last_commit": "2026-09-21T23:57:47Z",
+            "open_issues": 74,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-21T00:06:44.437Z",
+    "last_updated": "2026-09-22T00:42:42.979Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18708,
+      "stars": 18714,
       "topics": [
         "awesome-list",
         "education",
