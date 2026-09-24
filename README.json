@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1430,
+            "stars": 1431,
             "topics": [
               "applicative",
               "category-theory",
@@ -737,7 +737,7 @@
             "open_issues": 106,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61270,
+            "stars": 61274,
             "topics": [
               "javascript",
               "lodash",
@@ -784,7 +784,7 @@
             "open_issues": 53,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28982,
+            "stars": 28981,
             "topics": [
               "immutable",
               "immutables",
@@ -811,7 +811,7 @@
             "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27320,
+            "stars": 27321,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -1008,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-09-23T00:05:36Z",
-            "open_issues": 73,
+            "last_commit": "2026-09-23T23:52:37Z",
+            "open_issues": 74,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-23T00:17:03.523Z",
+    "last_updated": "2026-09-24T00:23:58.731Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18717,
+      "stars": 18718,
       "topics": [
         "awesome-list",
         "education",
