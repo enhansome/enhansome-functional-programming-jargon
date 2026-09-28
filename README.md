@@ -2,7 +2,7 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,723 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,724 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,238 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
@@ -1833,12 +1833,12 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,280 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,278 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,034 | 🐛 144 | 🌐 TypeScript | 📅 2026-09-10
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,982 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-12
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,983 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-12
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,321 | 🐛 52 | 🌐 JavaScript | 📅 2026-09-22
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 150 | 🌐 JavaScript | 📅 2026-09-15
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,551 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,552 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,965 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,050 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
@@ -1853,8 +1853,8 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,723 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,724 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14!
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-27._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-28._

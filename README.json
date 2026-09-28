@@ -737,7 +737,7 @@
             "open_issues": 105,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61280,
+            "stars": 61278,
             "topics": [
               "javascript",
               "lodash",
@@ -784,7 +784,7 @@
             "open_issues": 53,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28982,
+            "stars": 28983,
             "topics": [
               "immutable",
               "immutables",
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11551,
+            "stars": 11552,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-27T00:26:14.311Z",
+    "last_updated": "2026-09-28T00:31:46.827Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18723,
+      "stars": 18724,
       "topics": [
         "awesome-list",
         "education",
