@@ -4,14 +4,14 @@ Functional programming (FP) provides many advantages, and its popularity has bee
 
 Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,726 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
 
-Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
+Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10.
 
 > 🌐 **Interactive Graph**: [hemanth.github.io/functional-programming-jargon](https://hemanth.github.io/functional-programming-jargon)
 > 🤖 **Agent / LLM Spec**: [hemanth.github.io/functional-programming-jargon/llms.txt](https://hemanth.github.io/functional-programming-jargon/llms.txt)
 
 **Translations**
 
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,431 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
+* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,432 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
 * [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,284 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
@@ -567,7 +567,7 @@ loudGreeting.run('hello') // 'HELLO!'
 
 **Further reading**
 
-* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Value
 
@@ -1118,7 +1118,7 @@ score.bimap((name) => name.toUpperCase(), (points) => points * 2)
 
 **Further reading**
 
-* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Contravariant Functor
 
@@ -1146,7 +1146,7 @@ hasLongBio.test({ bio: 'Hi' }) // false
 
 **Further reading**
 
-* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Profunctor
 
@@ -1179,7 +1179,7 @@ isTrimmedLengthEven.run(' hello ') // 5 is odd -> false
 
 **Further reading**
 
-* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Alternative
 
@@ -1210,8 +1210,8 @@ finalConfig.value // { port: 8080 }
 
 **Further reading**
 
-* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
-* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Morphism
 
@@ -1435,7 +1435,7 @@ promiseSequence([
 
 **Further reading**
 
-* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Lens
 
@@ -1486,7 +1486,7 @@ R.over(compose(firstLens, nameLens), uppercase, people) // [{'name': 'GERTRUDE B
 
 Other implementations:
 
-* [partial.lenses](https://github.com/calmm-js/partial.lenses) ⭐ 924 | 🐛 23 | 🌐 JavaScript | 📅 2021-11-18 - Tasty syntax sugar and a lot of powerful features
+* [partial.lenses](https://github.com/calmm-js/partial.lenses) ⭐ 925 | 🐛 23 | 🌐 JavaScript | 📅 2021-11-18 - Tasty syntax sugar and a lot of powerful features
 * [nanoscope](http://www.kovach.me/nanoscope/) - Fluent-interface
 
 ## Prism
@@ -1574,7 +1574,7 @@ evenTraversal.modify((n) => n * 10, numbers) // [1, 20, 3, 40, 5, 60]
 
 **Further reading**
 
-* [Optics - Traversals](https://github.com/calmm-js/partial.lenses#traversal) ⭐ 924 | 🐛 23 | 🌐 JavaScript | 📅 2021-11-18
+* [Optics - Traversals](https://github.com/calmm-js/partial.lenses#traversal) ⭐ 925 | 🐛 23 | 🌐 JavaScript | 📅 2021-11-18
 
 ## Type Signatures
 
@@ -1742,7 +1742,7 @@ parseJson('invalid json').map((obj) => obj.user) // Left('Unexpected token...')
 
 **Further reading**
 
-* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,239 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,240 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 * [Folktale Result](https://folktale.origamitower.com/api/v2.3.0/en/folktale.result.html)
 
 ## Function
@@ -1833,10 +1833,10 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,276 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,277 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,033 | 🐛 144 | 🌐 TypeScript | 📅 2026-09-10
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,983 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-12
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,319 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-28
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,984 | 🐛 55 | 🌐 JavaScript | 📅 2026-09-29
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,317 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-28
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 149 | 🌐 JavaScript | 📅 2026-09-28
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,552 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,965 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
@@ -1844,7 +1844,7 @@ A function which returns a valid result for all inputs defined in its type. This
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,050 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,596 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
-* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 74 | 🌐 JavaScript | 📅 2026-09-28
+* [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 73 | 🌐 JavaScript | 📅 2026-09-30
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
 * [maryamyriameliamurphies.js](https://github.com/sjsyrek/maryamyriameliamurphies.js) ⭐ 182 | 🐛 19 | 🌐 JavaScript | 📅 2017-05-27
 * [ramda-extension](https://github.com/tommmyy/ramda-extension) ⭐ 167 | 🐛 33 | 🌐 HTML | 📅 2025-04-01
@@ -1857,4 +1857,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-29._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-30._

@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1431,
+            "stars": 1432,
             "topics": [
               "applicative",
               "category-theory",
@@ -327,7 +327,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -359,7 +359,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -391,7 +391,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -423,7 +423,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -455,7 +455,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -481,7 +481,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -513,7 +513,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -545,7 +545,7 @@
             "open_issues": 23,
             "owner": "calmm-js",
             "repo": "partial.lenses",
-            "stars": 924,
+            "stars": 925,
             "topics": [
               "counterculture",
               "fold",
@@ -637,7 +637,7 @@
             "open_issues": 23,
             "owner": "calmm-js",
             "repo": "partial.lenses",
-            "stars": 924,
+            "stars": 925,
             "topics": [
               "counterculture",
               "fold",
@@ -705,7 +705,7 @@
             "open_issues": 36,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10239,
+            "stars": 10240,
             "topics": [
               "fantasy-land",
               "functional",
@@ -737,7 +737,7 @@
             "open_issues": 105,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61276,
+            "stars": 61277,
             "topics": [
               "javascript",
               "lodash",
@@ -780,11 +780,11 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-09-12T07:20:02Z",
-            "open_issues": 53,
+            "last_commit": "2026-09-29T14:28:13Z",
+            "open_issues": 55,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28983,
+            "stars": 28984,
             "topics": [
               "immutable",
               "immutables",
@@ -811,7 +811,7 @@
             "open_issues": 51,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27319,
+            "stars": 27317,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -1008,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-09-28T23:55:41Z",
-            "open_issues": 74,
+            "last_commit": "2026-09-30T00:10:02Z",
+            "open_issues": 73,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-29T01:46:03.506Z",
+    "last_updated": "2026-09-30T01:12:46.509Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
