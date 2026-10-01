@@ -1633,7 +1633,7 @@ const weakLogicValues = new Set([...bools, ...halfTrue])
 
 Sum types are sometimes called union types, discriminated unions, or tagged unions.
 
-There's a [couple](https://github.com/paldepind/union-type) ⭐ 479 | 🐛 18 | 🌐 JavaScript | 📅 2019-06-05 [libraries](https://github.com/puffnfresh/daggy) ⭐ 707 | 🐛 2 | 🌐 JavaScript | 📅 2021-07-19 in JS which help with defining and using union types.
+There's a [couple](https://github.com/paldepind/union-type) ⭐ 478 | 🐛 18 | 🌐 JavaScript | 📅 2019-06-05 [libraries](https://github.com/puffnfresh/daggy) ⭐ 707 | 🐛 2 | 🌐 JavaScript | 📅 2021-07-19 in JS which help with defining and using union types.
 
 Flow includes [union types](https://flow.org/en/docs/types/unions/) and TypeScript has [Enums](https://www.typescriptlang.org/docs/handbook/enums.html) to serve the same role.
 
@@ -1833,12 +1833,12 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,277 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,033 | 🐛 144 | 🌐 TypeScript | 📅 2026-09-10
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,276 | 🐛 105 | 🌐 JavaScript | 📅 2026-09-11
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,031 | 🐛 144 | 🌐 TypeScript | 📅 2026-09-10
 * [Immer](https://github.com/mweststrate/immer) ⭐ 28,984 | 🐛 55 | 🌐 JavaScript | 📅 2026-09-29
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,317 | 🐛 51 | 🌐 JavaScript | 📅 2026-09-28
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 149 | 🌐 JavaScript | 📅 2026-09-28
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,552 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,550 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,965 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,050 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
@@ -1857,4 +1857,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-30._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-01._
