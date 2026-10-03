@@ -2,7 +2,7 @@
 
 Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.
 
-Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F) ⭐ 18,728 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14
+Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F)
 
 Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
 
@@ -1835,7 +1835,7 @@ A function which returns a valid result for all inputs defined in its type. This
 
 * [lodash](https://github.com/lodash/lodash) ⭐ 61,260 | 🐛 117 | 🌐 JavaScript | 📅 2026-10-01
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 145 | 🌐 TypeScript | 📅 2026-10-01
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,984 | 🐛 40 | 🌐 JavaScript | 📅 2026-10-02
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,984 | 🐛 41 | 🌐 JavaScript | 📅 2026-10-02
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-28
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 155 | 🌐 JavaScript | 📅 2026-09-28
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,550 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
@@ -1853,7 +1853,7 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors) ⭐ 18,728 | 🐛 27 | 🌐 JavaScript | 📅 2026-09-14!
+**P.S:** This repo is successful due to the wonderful [contributions](https://github.com/hemanth/functional-programming-jargon/graphs/contributors)!
 
 ***
 
