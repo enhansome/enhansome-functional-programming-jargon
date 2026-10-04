@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1432,
+            "stars": 1433,
             "topics": [
               "applicative",
               "category-theory",
@@ -671,8 +671,8 @@
             "id": 10851820,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-09-28T06:06:57Z",
-            "open_issues": 155,
+            "last_commit": "2026-10-03T06:18:15Z",
+            "open_issues": 153,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24047,
@@ -734,10 +734,10 @@
             "language": "JavaScript",
             "license": "NOASSERTION",
             "last_commit": "2026-10-01T23:04:09Z",
-            "open_issues": 117,
+            "open_issues": 119,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61260,
+            "stars": 61258,
             "topics": [
               "javascript",
               "lodash",
@@ -784,7 +784,7 @@
             "open_issues": 41,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28984,
+            "stars": 28983,
             "topics": [
               "immutable",
               "immutables",
@@ -828,8 +828,8 @@
             "id": 10851820,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-09-28T06:06:57Z",
-            "open_issues": 155,
+            "last_commit": "2026-10-03T06:18:15Z",
+            "open_issues": 153,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24047,
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11550,
+            "stars": 11549,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -947,7 +947,7 @@
             "open_issues": 12,
             "owner": "fluture-js",
             "repo": "Fluture",
-            "stars": 2493,
+            "stars": 2492,
             "topics": [
               "algebraic-data-types",
               "async",
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T04:45:28.406Z",
+    "last_updated": "2026-10-04T00:29:20.107Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 27,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18728,
+      "stars": 18726,
       "topics": [
         "awesome-list",
         "education",

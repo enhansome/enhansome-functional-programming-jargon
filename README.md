@@ -11,7 +11,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 
 **Translations**
 
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,432 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
+* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,433 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
 * [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,284 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
@@ -1608,7 +1608,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,047 | 🐛 155 | 🌐 JavaScript | 📅 2026-09-28
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,047 | 🐛 153 | 🌐 JavaScript | 📅 2026-10-03
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1833,16 +1833,16 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,260 | 🐛 117 | 🌐 JavaScript | 📅 2026-10-01
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,258 | 🐛 119 | 🌐 JavaScript | 📅 2026-10-01
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 145 | 🌐 TypeScript | 📅 2026-10-01
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,984 | 🐛 41 | 🌐 JavaScript | 📅 2026-10-02
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,983 | 🐛 41 | 🌐 JavaScript | 📅 2026-10-02
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-28
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 155 | 🌐 JavaScript | 📅 2026-09-28
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,550 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 153 | 🌐 JavaScript | 📅 2026-10-03
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,549 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,964 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,050 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
-* [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,493 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
+* [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,492 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,596 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
 * [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 74 | 🌐 JavaScript | 📅 2026-10-01
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
@@ -1857,4 +1857,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-04._
