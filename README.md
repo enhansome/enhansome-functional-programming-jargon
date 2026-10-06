@@ -1832,9 +1832,9 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,316 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 145 | 🌐 TypeScript | 📅 2026-10-01
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,981 | 🐛 42 | 🌐 JavaScript | 📅 2026-10-02
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,322 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 146 | 🌐 TypeScript | 📅 2026-10-06
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,982 | 🐛 42 | 🌐 JavaScript | 📅 2026-10-02
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-28
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 150 | 🌐 JavaScript | 📅 2026-10-04
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,547 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
@@ -1842,7 +1842,7 @@ A function which returns a valid result for all inputs defined in its type. This
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,049 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,491 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
-* [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,594 | 🐛 69 | 🌐 JavaScript | 📅 2023-01-06
+* [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,594 | 🐛 68 | 🌐 JavaScript | 📅 2023-01-06
 * [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 75 | 🌐 JavaScript | 📅 2026-10-05
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
 * [maryamyriameliamurphies.js](https://github.com/sjsyrek/maryamyriameliamurphies.js) ⭐ 181 | 🐛 19 | 🌐 JavaScript | 📅 2017-05-27
