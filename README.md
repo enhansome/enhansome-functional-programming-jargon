@@ -4,7 +4,7 @@ Functional programming (FP) provides many advantages, and its popularity has bee
 
 Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F)
 
-Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
+Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
 
 **Interactive Graph**: [hemanth.github.io/functional-programming-jargon](https://hemanth.github.io/functional-programming-jargon)
 
@@ -566,7 +566,7 @@ loudGreeting.run('hello') // 'HELLO!'
 
 **Further reading**
 
-* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Value
 
@@ -1117,7 +1117,7 @@ score.bimap((name) => name.toUpperCase(), (points) => points * 2)
 
 **Further reading**
 
-* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Contravariant Functor
 
@@ -1145,7 +1145,7 @@ hasLongBio.test({ bio: 'Hi' }) // false
 
 **Further reading**
 
-* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Profunctor
 
@@ -1178,7 +1178,7 @@ isTrimmedLengthEven.run(' hello ') // 5 is odd -> false
 
 **Further reading**
 
-* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Alternative
 
@@ -1209,8 +1209,8 @@ finalConfig.value // { port: 8080 }
 
 **Further reading**
 
-* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
-* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Morphism
 
@@ -1434,7 +1434,7 @@ promiseSequence([
 
 **Further reading**
 
-* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Lens
 
@@ -1607,7 +1607,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,047 | 🐛 150 | 🌐 JavaScript | 📅 2026-10-04
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,046 | 🐛 152 | 🌐 JavaScript | 📅 2026-10-04
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1741,7 +1741,7 @@ parseJson('invalid json').map((obj) => obj.user) // Left('Unexpected token...')
 
 **Further reading**
 
-* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,240 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,241 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 * [Folktale Result](https://folktale.origamitower.com/api/v2.3.0/en/folktale.result.html)
 
 ## Function
@@ -1832,12 +1832,12 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,322 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,329 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,030 | 🐛 146 | 🌐 TypeScript | 📅 2026-10-06
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,982 | 🐛 42 | 🌐 JavaScript | 📅 2026-10-02
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,320 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-28
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 150 | 🌐 JavaScript | 📅 2026-10-04
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,547 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,983 | 🐛 45 | 🌐 JavaScript | 📅 2026-10-02
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,319 | 🐛 54 | 🌐 JavaScript | 📅 2026-09-28
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,046 | 🐛 152 | 🌐 JavaScript | 📅 2026-10-04
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,964 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,049 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-07._
