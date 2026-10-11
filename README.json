@@ -327,7 +327,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -359,7 +359,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -391,7 +391,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -423,7 +423,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -455,7 +455,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -481,7 +481,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -513,7 +513,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -675,7 +675,7 @@
             "open_issues": 156,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24047,
+            "stars": 24045,
             "topics": [
               "javascript",
               "ramda"
@@ -705,7 +705,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10241,
+            "stars": 10242,
             "topics": [
               "fantasy-land",
               "functional",
@@ -737,7 +737,7 @@
             "open_issues": 121,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61359,
+            "stars": 61358,
             "topics": [
               "javascript",
               "lodash",
@@ -763,7 +763,7 @@
             "open_issues": 146,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33027,
+            "stars": 33028,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -784,7 +784,7 @@
             "open_issues": 47,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28984,
+            "stars": 28985,
             "topics": [
               "immutable",
               "immutables",
@@ -811,7 +811,7 @@
             "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27318,
+            "stars": 27317,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -832,7 +832,7 @@
             "open_issues": 156,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24047,
+            "stars": 24045,
             "topics": [
               "javascript",
               "ramda"
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-10T01:39:39.476Z",
+    "last_updated": "2026-10-11T00:49:23.735Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18738,
+      "stars": 18739,
       "topics": [
         "awesome-list",
         "education",
