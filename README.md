@@ -1607,7 +1607,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,045 | 🐛 156 | 🌐 JavaScript | 📅 2026-10-04
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,046 | 🐛 158 | 🌐 JavaScript | 📅 2026-10-12
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1832,11 +1832,11 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,358 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,028 | 🐛 146 | 🌐 TypeScript | 📅 2026-10-06
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,985 | 🐛 47 | 🌐 JavaScript | 📅 2026-10-02
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,317 | 🐛 53 | 🌐 JavaScript | 📅 2026-09-28
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,045 | 🐛 156 | 🌐 JavaScript | 📅 2026-10-04
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,355 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,028 | 🐛 143 | 🌐 TypeScript | 📅 2026-10-06
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,985 | 🐛 48 | 🌐 JavaScript | 📅 2026-10-02
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,317 | 🐛 54 | 🌐 JavaScript | 📅 2026-09-28
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,046 | 🐛 158 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,547 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,963 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,371 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-12._
