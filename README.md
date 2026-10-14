@@ -10,8 +10,8 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 
 **Translations**
 
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,435 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
-* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,285 | 🐛 2 | 📅 2023-01-29
+* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,436 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
+* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,284 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
 * [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional) ⭐ 161 | 🐛 2 | 📅 2019-12-23
@@ -1832,9 +1832,9 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,355 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,377 | 🐛 121 | 🌐 JavaScript | 📅 2026-10-01
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,027 | 🐛 143 | 🌐 TypeScript | 📅 2026-10-06
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,983 | 🐛 54 | 🌐 JavaScript | 📅 2026-10-02
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,984 | 🐛 55 | 🌐 JavaScript | 📅 2026-10-13
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,317 | 🐛 54 | 🌐 JavaScript | 📅 2026-09-28
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,045 | 🐛 159 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,547 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-14._
