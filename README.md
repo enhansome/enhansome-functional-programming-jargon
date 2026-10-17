@@ -4,7 +4,7 @@ Functional programming (FP) provides many advantages, and its popularity has bee
 
 Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F)
 
-Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
+Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
 
 **Interactive Graph**: [hemanth.github.io/functional-programming-jargon](https://hemanth.github.io/functional-programming-jargon)
 
@@ -566,7 +566,7 @@ loudGreeting.run('hello') // 'HELLO!'
 
 **Further reading**
 
-* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Value
 
@@ -1117,7 +1117,7 @@ score.bimap((name) => name.toUpperCase(), (points) => points * 2)
 
 **Further reading**
 
-* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Contravariant Functor
 
@@ -1145,7 +1145,7 @@ hasLongBio.test({ bio: 'Hi' }) // false
 
 **Further reading**
 
-* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Profunctor
 
@@ -1178,7 +1178,7 @@ isTrimmedLengthEven.run(' hello ') // 5 is odd -> false
 
 **Further reading**
 
-* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Alternative
 
@@ -1209,8 +1209,8 @@ finalConfig.value // { port: 8080 }
 
 **Further reading**
 
-* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
-* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Morphism
 
@@ -1434,7 +1434,7 @@ promiseSequence([
 
 **Further reading**
 
-* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Lens
 
@@ -1741,7 +1741,7 @@ parseJson('invalid json').map((obj) => obj.user) // Left('Unexpected token...')
 
 **Further reading**
 
-* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,242 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 * [Folktale Result](https://folktale.origamitower.com/api/v2.3.0/en/folktale.result.html)
 
 ## Function
@@ -1832,10 +1832,10 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,286 | 🐛 122 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,026 | 🐛 146 | 🌐 TypeScript | 📅 2026-10-06
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,987 | 🐛 61 | 🌐 JavaScript | 📅 2026-10-16
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,312 | 🐛 51 | 🌐 JavaScript | 📅 2026-10-15
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,285 | 🐛 122 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,026 | 🐛 147 | 🌐 TypeScript | 📅 2026-10-17
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,987 | 🐛 62 | 🌐 JavaScript | 📅 2026-10-17
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,312 | 🐛 52 | 🌐 JavaScript | 📅 2026-10-15
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,046 | 🐛 160 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,963 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
