@@ -1607,7 +1607,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,046 | 🐛 160 | 🌐 JavaScript | 📅 2026-10-12
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,047 | 🐛 162 | 🌐 JavaScript | 📅 2026-10-12
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1832,12 +1832,12 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,285 | 🐛 122 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,026 | 🐛 147 | 🌐 TypeScript | 📅 2026-10-17
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,987 | 🐛 62 | 🌐 JavaScript | 📅 2026-10-17
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,287 | 🐛 122 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,025 | 🐛 150 | 🌐 TypeScript | 📅 2026-10-18
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,987 | 🐛 63 | 🌐 JavaScript | 📅 2026-10-17
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,312 | 🐛 52 | 🌐 JavaScript | 📅 2026-10-15
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,046 | 🐛 160 | 🌐 JavaScript | 📅 2026-10-12
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,047 | 🐛 162 | 🌐 JavaScript | 📅 2026-10-12
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,549 | 🐛 191 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,963 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,047 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-17._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-19._
