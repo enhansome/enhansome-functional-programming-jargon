@@ -672,10 +672,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 162,
+            "open_issues": 163,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24047,
+            "stars": 24048,
             "topics": [
               "javascript",
               "ramda"
@@ -781,7 +781,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-17T09:20:44Z",
-            "open_issues": 63,
+            "open_issues": 64,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 28987,
@@ -829,10 +829,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 162,
+            "open_issues": 163,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24047,
+            "stars": 24048,
             "topics": [
               "javascript",
               "ramda"
@@ -902,7 +902,7 @@
             "open_issues": 64,
             "owner": "swannodette",
             "repo": "mori",
-            "stars": 3370,
+            "stars": 3371,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -1008,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-10-15T23:52:45Z",
-            "open_issues": 75,
+            "last_commit": "2026-10-19T23:54:11Z",
+            "open_issues": 76,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-19T00:06:39.812Z",
+    "last_updated": "2026-10-20T01:01:25.015Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18741,
+      "stars": 18742,
       "topics": [
         "awesome-list",
         "education",
