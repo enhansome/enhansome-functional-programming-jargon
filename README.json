@@ -672,10 +672,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 163,
+            "open_issues": 164,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24048,
+            "stars": 24049,
             "topics": [
               "javascript",
               "ramda"
@@ -780,11 +780,11 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-10-17T09:20:44Z",
-            "open_issues": 64,
+            "last_commit": "2026-10-20T18:49:46Z",
+            "open_issues": 50,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 28987,
+            "stars": 28988,
             "topics": [
               "immutable",
               "immutables",
@@ -811,7 +811,7 @@
             "open_issues": 52,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27312,
+            "stars": 27313,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -829,10 +829,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 163,
+            "open_issues": 164,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24048,
+            "stars": 24049,
             "topics": [
               "javascript",
               "ramda"
@@ -856,7 +856,7 @@
             "open_issues": 191,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11549,
+            "stars": 11547,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-20T01:01:25.015Z",
+    "last_updated": "2026-10-21T00:31:27.372Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
