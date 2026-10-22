@@ -672,10 +672,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 164,
+            "open_issues": 163,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24049,
+            "stars": 24050,
             "topics": [
               "javascript",
               "ramda"
@@ -737,7 +737,7 @@
             "open_issues": 122,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61287,
+            "stars": 61285,
             "topics": [
               "javascript",
               "lodash",
@@ -763,7 +763,7 @@
             "open_issues": 150,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33025,
+            "stars": 33026,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -780,8 +780,8 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-10-20T18:49:46Z",
-            "open_issues": 50,
+            "last_commit": "2026-10-21T14:08:00Z",
+            "open_issues": 46,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 28988,
@@ -811,7 +811,7 @@
             "open_issues": 52,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27313,
+            "stars": 27312,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -829,10 +829,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 164,
+            "open_issues": 163,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24049,
+            "stars": 24050,
             "topics": [
               "javascript",
               "ramda"
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-21T00:31:27.372Z",
+    "last_updated": "2026-10-22T00:35:06.724Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18742,
+      "stars": 18743,
       "topics": [
         "awesome-list",
         "education",
