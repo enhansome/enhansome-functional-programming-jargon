@@ -10,7 +10,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 
 **Translations**
 
-* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,436 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
+* [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,437 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
 * [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,287 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
@@ -1607,7 +1607,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,051 | 🐛 166 | 🌐 JavaScript | 📅 2026-10-12
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,052 | 🐛 166 | 🌐 JavaScript | 📅 2026-10-12
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1632,7 +1632,7 @@ const weakLogicValues = new Set([...bools, ...halfTrue])
 
 Sum types are sometimes called union types, discriminated unions, or tagged unions.
 
-There's a [couple](https://github.com/paldepind/union-type) ⭐ 478 | 🐛 18 | 🌐 JavaScript | 📅 2019-06-05 [libraries](https://github.com/puffnfresh/daggy) ⭐ 707 | 🐛 2 | 🌐 JavaScript | 📅 2021-07-19 in JS which help with defining and using union types.
+There's a [couple](https://github.com/paldepind/union-type) ⭐ 478 | 🐛 18 | 🌐 JavaScript | 📅 2019-06-05 [libraries](https://github.com/puffnfresh/daggy) ⭐ 706 | 🐛 2 | 🌐 JavaScript | 📅 2021-07-19 in JS which help with defining and using union types.
 
 Flow includes [union types](https://flow.org/en/docs/types/unions/) and TypeScript has [Enums](https://www.typescriptlang.org/docs/handbook/enums.html) to serve the same role.
 
@@ -1832,11 +1832,11 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,284 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,026 | 🐛 150 | 🌐 TypeScript | 📅 2026-10-18
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,992 | 🐛 42 | 🌐 JavaScript | 📅 2026-10-22
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,311 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,051 | 🐛 166 | 🌐 JavaScript | 📅 2026-10-12
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,281 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,027 | 🐛 151 | 🌐 TypeScript | 📅 2026-10-18
+* [Immer](https://github.com/mweststrate/immer) ⭐ 28,994 | 🐛 42 | 🌐 JavaScript | 📅 2026-10-22
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,310 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,052 | 🐛 166 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,547 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,963 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,371 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-24._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-25._
