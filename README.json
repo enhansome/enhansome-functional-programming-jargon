@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1438,
+            "stars": 1439,
             "topics": [
               "applicative",
               "category-theory",
@@ -672,10 +672,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 166,
+            "open_issues": 168,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24053,
+            "stars": 24054,
             "topics": [
               "javascript",
               "ramda"
@@ -737,7 +737,7 @@
             "open_issues": 123,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61282,
+            "stars": 61279,
             "topics": [
               "javascript",
               "lodash",
@@ -759,8 +759,8 @@
             "id": 21413198,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-10-18T13:07:42Z",
-            "open_issues": 151,
+            "last_commit": "2026-10-26T07:01:49Z",
+            "open_issues": 153,
             "owner": "immutable-js",
             "repo": "immutable-js",
             "stars": 33028,
@@ -811,7 +811,7 @@
             "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27311,
+            "stars": 27308,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -829,10 +829,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 166,
+            "open_issues": 168,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24053,
+            "stars": 24054,
             "topics": [
               "javascript",
               "ramda"
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11548,
+            "stars": 11546,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -1008,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-10-23T23:52:52Z",
-            "open_issues": 76,
+            "last_commit": "2026-10-27T00:10:40Z",
+            "open_issues": 73,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 687,
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-26T00:06:00.640Z",
+    "last_updated": "2026-10-27T01:23:30.042Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
