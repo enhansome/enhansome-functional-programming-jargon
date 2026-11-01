@@ -1832,9 +1832,9 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,275 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,023 | 🐛 157 | 🌐 TypeScript | 📅 2026-10-30
-* [Immer](https://github.com/mweststrate/immer) ⭐ 28,999 | 🐛 44 | 🌐 JavaScript | 📅 2026-10-22
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,274 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,023 | 🐛 155 | 🌐 TypeScript | 📅 2026-10-31
+* [Immer](https://github.com/mweststrate/immer) ⭐ 29,000 | 🐛 46 | 🌐 JavaScript | 📅 2026-10-31
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,306 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,056 | 🐛 171 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-31._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-01._
