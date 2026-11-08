@@ -1607,7 +1607,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,051 | 🐛 179 | 🌐 JavaScript | 📅 2026-10-12
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,050 | 🐛 180 | 🌐 JavaScript | 📅 2026-10-12
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1832,11 +1832,11 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,263 | 🐛 124 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,018 | 🐛 156 | 🌐 TypeScript | 📅 2026-11-05
-* [Immer](https://github.com/mweststrate/immer) ⭐ 29,003 | 🐛 47 | 🌐 JavaScript | 📅 2026-10-31
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,264 | 🐛 126 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,019 | 🐛 157 | 🌐 TypeScript | 📅 2026-11-05
+* [Immer](https://github.com/mweststrate/immer) ⭐ 29,004 | 🐛 49 | 🌐 JavaScript | 📅 2026-10-31
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,299 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,051 | 🐛 179 | 🌐 JavaScript | 📅 2026-10-12
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,050 | 🐛 180 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,548 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,961 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,372 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-07._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-08._
