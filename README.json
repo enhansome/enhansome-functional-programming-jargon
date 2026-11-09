@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1440,
+            "stars": 1441,
             "topics": [
               "applicative",
               "category-theory",
@@ -675,7 +675,7 @@
             "open_issues": 180,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24050,
+            "stars": 24051,
             "topics": [
               "javascript",
               "ramda"
@@ -781,7 +781,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-31T15:56:24Z",
-            "open_issues": 49,
+            "open_issues": 50,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 29004,
@@ -811,7 +811,7 @@
             "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27299,
+            "stars": 27297,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -832,7 +832,7 @@
             "open_issues": 180,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24050,
+            "stars": 24051,
             "topics": [
               "javascript",
               "ramda"
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11548,
+            "stars": 11549,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-08T01:16:28.749Z",
+    "last_updated": "2026-11-09T01:37:02.393Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18744,
+      "stars": 18743,
       "topics": [
         "awesome-list",
         "education",
