@@ -4,14 +4,14 @@ Functional programming (FP) provides many advantages, and its popularity has bee
 
 Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F)
 
-Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
+Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10.
 
 **Interactive Graph**: [hemanth.github.io/functional-programming-jargon](https://hemanth.github.io/functional-programming-jargon)
 
 **Translations**
 
 * [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,441 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
-* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,285 | 🐛 2 | 📅 2023-01-29
+* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,284 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
 * [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional) ⭐ 160 | 🐛 2 | 📅 2019-12-23
@@ -566,7 +566,7 @@ loudGreeting.run('hello') // 'HELLO!'
 
 **Further reading**
 
-* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Semigroupoid](https://github.com/fantasyland/fantasy-land#semigroupoid) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Value
 
@@ -1117,7 +1117,7 @@ score.bimap((name) => name.toUpperCase(), (points) => points * 2)
 
 **Further reading**
 
-* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Bifunctor](https://github.com/fantasyland/fantasy-land#bifunctor) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Contravariant Functor
 
@@ -1145,7 +1145,7 @@ hasLongBio.test({ bio: 'Hi' }) // false
 
 **Further reading**
 
-* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Contravariant Functor](https://github.com/fantasyland/fantasy-land#contravariant) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Profunctor
 
@@ -1178,7 +1178,7 @@ isTrimmedLengthEven.run(' hello ') // 5 is odd -> false
 
 **Further reading**
 
-* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Profunctor](https://github.com/fantasyland/fantasy-land#profunctor) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Alternative
 
@@ -1209,8 +1209,8 @@ finalConfig.value // { port: 8080 }
 
 **Further reading**
 
-* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
-* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alt](https://github.com/fantasyland/fantasy-land#alt) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Alternative](https://github.com/fantasyland/fantasy-land#alternative) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Morphism
 
@@ -1434,7 +1434,7 @@ promiseSequence([
 
 **Further reading**
 
-* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Traversable](https://github.com/fantasyland/fantasy-land#traversable) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 
 ## Lens
 
@@ -1607,7 +1607,7 @@ const map = (f) => (list) => list.map(f)
 
 **Further reading**
 
-* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,052 | 🐛 181 | 🌐 JavaScript | 📅 2026-10-12
+* [Ramda's type signatures](https://github.com/ramda/ramda/wiki/Type-Signatures) ⭐ 24,050 | 🐛 181 | 🌐 JavaScript | 📅 2026-10-12
 * [Mostly Adequate Guide](https://web.archive.org/web/20170602130913/https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch7.html#whats-your-type)
 * [What is Hindley-Milner?](http://stackoverflow.com/a/399392/22425) on Stack Overflow
 
@@ -1741,7 +1741,7 @@ parseJson('invalid json').map((obj) => obj.user) // Left('Unexpected token...')
 
 **Further reading**
 
-* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,244 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
+* [Either](https://github.com/fantasyland/fantasy-land#either) ⭐ 10,243 | 🐛 37 | 🌐 JavaScript | 📅 2024-11-10 in Fantasy Land
 * [Folktale Result](https://folktale.origamitower.com/api/v2.3.0/en/folktale.result.html)
 
 ## Function
@@ -1832,17 +1832,17 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,267 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,366 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,019 | 🐛 157 | 🌐 TypeScript | 📅 2026-11-09
-* [Immer](https://github.com/mweststrate/immer) ⭐ 29,004 | 🐛 54 | 🌐 JavaScript | 📅 2026-11-10
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,296 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
-* [Ramda](https://github.com/ramda/ramda) ⭐ 24,052 | 🐛 181 | 🌐 JavaScript | 📅 2026-10-12
+* [Immer](https://github.com/mweststrate/immer) ⭐ 29,003 | 🐛 55 | 🌐 JavaScript | 📅 2026-11-10
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,295 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
+* [Ramda](https://github.com/ramda/ramda) ⭐ 24,050 | 🐛 181 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,551 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,960 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
-* [mori](https://github.com/swannodette/mori) ⭐ 3,372 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
+* [mori](https://github.com/swannodette/mori) ⭐ 3,371 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,046 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
-* [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,490 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
-* [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,594 | 🐛 68 | 🌐 JavaScript | 📅 2023-01-06
+* [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,489 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
+* [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,593 | 🐛 68 | 🌐 JavaScript | 📅 2023-01-06
 * [ramda-adjunct](https://github.com/char0n/ramda-adjunct) ⭐ 687 | 🐛 75 | 🌐 JavaScript | 📅 2026-11-09
 * [Haskell in ES6](https://github.com/casualjavascript/haskell-in-es6) ⭐ 286 | 🐛 2 | 🌐 JavaScript | 📅 2016-08-20
 * [maryamyriameliamurphies.js](https://github.com/sjsyrek/maryamyriameliamurphies.js) ⭐ 181 | 🐛 19 | 🌐 JavaScript | 📅 2017-05-27
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-12._
