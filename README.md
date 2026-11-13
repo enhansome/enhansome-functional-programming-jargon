@@ -1832,14 +1832,14 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,366 | 🐛 123 | 🌐 JavaScript | 📅 2026-10-01
-* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,019 | 🐛 157 | 🌐 TypeScript | 📅 2026-11-09
-* [Immer](https://github.com/mweststrate/immer) ⭐ 29,003 | 🐛 55 | 🌐 JavaScript | 📅 2026-11-10
-* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,295 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,365 | 🐛 124 | 🌐 JavaScript | 📅 2026-10-01
+* [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,018 | 🐛 155 | 🌐 TypeScript | 📅 2026-11-13
+* [Immer](https://github.com/mweststrate/immer) ⭐ 29,001 | 🐛 57 | 🌐 JavaScript | 📅 2026-11-10
+* [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,296 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,050 | 🐛 181 | 🌐 JavaScript | 📅 2026-10-12
-* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,551 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
+* [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,552 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
 * [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,960 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
-* [mori](https://github.com/swannodette/mori) ⭐ 3,371 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
+* [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,046 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,489 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
 * [Crocks](https://github.com/evilsoft/crocks) ⭐ 1,593 | 🐛 68 | 🌐 JavaScript | 📅 2023-01-06
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-12._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-13._
