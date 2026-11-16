@@ -734,10 +734,10 @@
             "language": "JavaScript",
             "license": "NOASSERTION",
             "last_commit": "2026-10-01T23:04:09Z",
-            "open_issues": 124,
+            "open_issues": 125,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61357,
+            "stars": 61367,
             "topics": [
               "javascript",
               "lodash",
@@ -763,7 +763,7 @@
             "open_issues": 158,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33017,
+            "stars": 33016,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11553,
+            "stars": 11554,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -902,7 +902,7 @@
             "open_issues": 64,
             "owner": "swannodette",
             "repo": "mori",
-            "stars": 3370,
+            "stars": 3371,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-15T01:44:15.774Z",
+    "last_updated": "2026-11-16T01:49:36.483Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
