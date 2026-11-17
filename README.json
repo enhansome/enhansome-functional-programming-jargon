@@ -672,7 +672,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 181,
+            "open_issues": 183,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24051,
@@ -734,10 +734,10 @@
             "language": "JavaScript",
             "license": "NOASSERTION",
             "last_commit": "2026-10-01T23:04:09Z",
-            "open_issues": 125,
+            "open_issues": 127,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61367,
+            "stars": 61325,
             "topics": [
               "javascript",
               "lodash",
@@ -763,7 +763,7 @@
             "open_issues": 158,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33016,
+            "stars": 33015,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -781,7 +781,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-11-10T14:47:37Z",
-            "open_issues": 58,
+            "open_issues": 60,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 29003,
@@ -811,7 +811,7 @@
             "open_issues": 53,
             "owner": "jashkenas",
             "repo": "underscore",
-            "stars": 27294,
+            "stars": 27293,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -829,7 +829,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 181,
+            "open_issues": 183,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24051,
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11554,
+            "stars": 11555,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -947,7 +947,7 @@
             "open_issues": 12,
             "owner": "fluture-js",
             "repo": "Fluture",
-            "stars": 2489,
+            "stars": 2490,
             "topics": [
               "algebraic-data-types",
               "async",
@@ -1012,7 +1012,7 @@
             "open_issues": 75,
             "owner": "char0n",
             "repo": "ramda-adjunct",
-            "stars": 687,
+            "stars": 688,
             "topics": [
               "addons",
               "adjunct",
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-16T01:49:36.483Z",
+    "last_updated": "2026-11-17T04:25:05.704Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
