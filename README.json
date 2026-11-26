@@ -53,7 +53,7 @@
             "open_issues": 2,
             "owner": "shfshanyue",
             "repo": "fp-jargon-zh",
-            "stars": 1283,
+            "stars": 1284,
             "topics": [
               "fp",
               "functional-programming"
@@ -737,7 +737,7 @@
             "open_issues": 127,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61346,
+            "stars": 61382,
             "topics": [
               "javascript",
               "lodash",
@@ -781,7 +781,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-11-10T14:47:37Z",
-            "open_issues": 62,
+            "open_issues": 63,
             "owner": "immerjs",
             "repo": "immer",
             "stars": 29003,
@@ -881,7 +881,7 @@
             "open_issues": 59,
             "owner": "dtao",
             "repo": "lazy.js",
-            "stars": 5958,
+            "stars": 5956,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-25T04:51:04.856Z",
+    "last_updated": "2026-11-26T04:03:54.413Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18744,
+      "stars": 18745,
       "topics": [
         "awesome-list",
         "education",

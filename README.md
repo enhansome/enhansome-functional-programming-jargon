@@ -11,7 +11,7 @@ Where applicable, this document uses terms defined in the [Fantasy Land spec](ht
 **Translations**
 
 * [Rust World](https://github.com/JasonShin/functional-programming-jargon.rs) ⭐ 1,438 | 🐛 30 | 🌐 Rust | 📅 2026-03-12
-* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,283 | 🐛 2 | 📅 2023-01-29
+* [Chinese](https://github.com/shfshanyue/fp-jargon-zh) ⭐ 1,284 | 🐛 2 | 📅 2023-01-29
 * [Python World](https://github.com/jmesyou/functional-programming-jargon.py) ⭐ 231 | 🐛 0 | 📅 2021-09-04
 * [Scala World](https://github.com/ikhoon/functional-programming-jargon.scala) ⭐ 231 | 🐛 0 | 🌐 Scala | 📅 2023-11-30
 * [Portuguese](https://github.com/alexmoreno/jargoes-programacao-funcional) ⭐ 160 | 🐛 2 | 📅 2019-12-23
@@ -1832,13 +1832,13 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ## Functional Programming Libraries in JavaScript
 
-* [lodash](https://github.com/lodash/lodash) ⭐ 61,346 | 🐛 127 | 🌐 JavaScript | 📅 2026-10-01
+* [lodash](https://github.com/lodash/lodash) ⭐ 61,382 | 🐛 127 | 🌐 JavaScript | 📅 2026-10-01
 * [Immutable](https://github.com/facebook/immutable-js/) ⭐ 33,013 | 🐛 159 | 🌐 TypeScript | 📅 2026-11-24
-* [Immer](https://github.com/mweststrate/immer) ⭐ 29,003 | 🐛 62 | 🌐 JavaScript | 📅 2026-11-10
+* [Immer](https://github.com/mweststrate/immer) ⭐ 29,003 | 🐛 63 | 🌐 JavaScript | 📅 2026-11-10
 * [Underscore.js](https://github.com/jashkenas/underscore) ⭐ 27,294 | 🐛 53 | 🌐 JavaScript | 📅 2026-10-15
 * [Ramda](https://github.com/ramda/ramda) ⭐ 24,055 | 🐛 180 | 🌐 JavaScript | 📅 2026-10-12
 * [fp-ts](https://github.com/gcanti/fp-ts) ⭐ 11,560 | 🐛 190 | 🌐 TypeScript | 📅 2026-04-20
-* [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,958 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
+* [Lazy.js](https://github.com/dtao/lazy.js) ⭐ 5,956 | 🐛 59 | 🌐 JavaScript | 📅 2020-07-15
 * [mori](https://github.com/swannodette/mori) ⭐ 3,370 | 🐛 64 | 🌐 Clojure | 📅 2026-03-06
 * [Sanctuary](https://github.com/sanctuary-js/sanctuary) ⭐ 3,044 | 🐛 36 | 🌐 JavaScript | 📅 2024-11-10
 * [Fluture](https://github.com/fluture-js/Fluture) ⭐ 2,489 | 🐛 12 | 🌐 JavaScript | 📅 2024-04-22
@@ -1856,4 +1856,4 @@ A function which returns a valid result for all inputs defined in its type. This
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-26._
