@@ -672,7 +672,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 180,
+            "open_issues": 181,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24055,
@@ -737,7 +737,7 @@
             "open_issues": 127,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61382,
+            "stars": 61398,
             "topics": [
               "javascript",
               "lodash",
@@ -780,11 +780,11 @@
             "id": 115720575,
             "language": "JavaScript",
             "license": "MIT",
-            "last_commit": "2026-11-10T14:47:37Z",
-            "open_issues": 63,
+            "last_commit": "2026-11-26T19:50:51Z",
+            "open_issues": 49,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 29003,
+            "stars": 29004,
             "topics": [
               "immutable",
               "immutables",
@@ -829,7 +829,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 180,
+            "open_issues": 181,
             "owner": "ramda",
             "repo": "ramda",
             "stars": 24055,
@@ -856,7 +856,7 @@
             "open_issues": 190,
             "owner": "gcanti",
             "repo": "fp-ts",
-            "stars": 11560,
+            "stars": 11558,
             "topics": [
               "algebraic-data-types",
               "functional-programming",
@@ -902,7 +902,7 @@
             "open_issues": 64,
             "owner": "swannodette",
             "repo": "mori",
-            "stars": 3370,
+            "stars": 3371,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-26T04:03:54.413Z",
+    "last_updated": "2026-11-27T04:04:00.678Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18745,
+      "stars": 18746,
       "topics": [
         "awesome-list",
         "education",
