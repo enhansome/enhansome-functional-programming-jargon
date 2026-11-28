@@ -19,7 +19,7 @@
             "open_issues": 30,
             "owner": "JasonShin",
             "repo": "fp-core.rs",
-            "stars": 1438,
+            "stars": 1439,
             "topics": [
               "applicative",
               "category-theory",
@@ -53,7 +53,7 @@
             "open_issues": 2,
             "owner": "shfshanyue",
             "repo": "fp-jargon-zh",
-            "stars": 1284,
+            "stars": 1283,
             "topics": [
               "fp",
               "functional-programming"
@@ -327,7 +327,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -359,7 +359,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -391,7 +391,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -423,7 +423,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -455,7 +455,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -481,7 +481,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -513,7 +513,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -672,10 +672,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 181,
+            "open_issues": 182,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24055,
+            "stars": 24056,
             "topics": [
               "javascript",
               "ramda"
@@ -705,7 +705,7 @@
             "open_issues": 37,
             "owner": "fantasyland",
             "repo": "fantasy-land",
-            "stars": 10246,
+            "stars": 10245,
             "topics": [
               "fantasy-land",
               "functional",
@@ -734,10 +734,10 @@
             "language": "JavaScript",
             "license": "NOASSERTION",
             "last_commit": "2026-10-01T23:04:09Z",
-            "open_issues": 127,
+            "open_issues": 129,
             "owner": "lodash",
             "repo": "lodash",
-            "stars": 61398,
+            "stars": 61305,
             "topics": [
               "javascript",
               "lodash",
@@ -763,7 +763,7 @@
             "open_issues": 159,
             "owner": "immutable-js",
             "repo": "immutable-js",
-            "stars": 33013,
+            "stars": 33014,
             "topics": []
           },
           "first_seen": "2026-08-28T06:04:02.815Z"
@@ -784,7 +784,7 @@
             "open_issues": 49,
             "owner": "immerjs",
             "repo": "immer",
-            "stars": 29004,
+            "stars": 29005,
             "topics": [
               "immutable",
               "immutables",
@@ -829,10 +829,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-12T00:34:57Z",
-            "open_issues": 181,
+            "open_issues": 182,
             "owner": "ramda",
             "repo": "ramda",
-            "stars": 24055,
+            "stars": 24056,
             "topics": [
               "javascript",
               "ramda"
@@ -1008,8 +1008,8 @@
             "id": 81263716,
             "language": "JavaScript",
             "license": "BSD-3-Clause",
-            "last_commit": "2026-11-23T23:59:23Z",
-            "open_issues": 75,
+            "last_commit": "2026-11-27T23:52:45Z",
+            "open_issues": 76,
             "owner": "char0n",
             "repo": "ramda-adjunct",
             "stars": 688,
@@ -1115,7 +1115,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-27T04:04:00.678Z",
+    "last_updated": "2026-11-28T03:49:34.232Z",
     "original_repository_info": {
       "archived": false,
       "description": "Jargon from the functional programming world in simple terms!",
@@ -1127,7 +1127,7 @@
       "open_issues": 28,
       "owner": "hemanth",
       "repo": "functional-programming-jargon",
-      "stars": 18746,
+      "stars": 18747,
       "topics": [
         "awesome-list",
         "education",
